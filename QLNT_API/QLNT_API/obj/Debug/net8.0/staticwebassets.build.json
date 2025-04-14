@@ -1,0 +1,434 @@
+{
+  "Version": 1,
+  "Hash": "CITnUhdrneFnyTwq/IeTBuTkC4nQ0+XKUB0QC/CxAp8=",
+  "Source": "QLNT_API",
+  "BasePath": "_content/QLNT_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "QLNT_API\\wwwroot",
+      "Source": "QLNT_API",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\",
+      "BasePath": "_content/QLNT_API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\bathroom_e1755dbf-43ef-41c4-97a6-228b9780cab4.png",
+      "SourceId": "QLNT_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\",
+      "BasePath": "_content/QLNT_API",
+      "RelativePath": "Images/Category/bathroom_e1755dbf-43ef-41c4-97a6-228b9780cab4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jql0pkz5my",
+      "Integrity": "C2fapJ+CwNoMMx7MDAxdmT4Md/cVOmXNrBhTbyJD7XQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Category\\bathroom_e1755dbf-43ef-41c4-97a6-228b9780cab4.png"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\bedroom_48a0ff13-db5e-45b2-b6db-d358fccadd8f.png",
+      "SourceId": "QLNT_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\",
+      "BasePath": "_content/QLNT_API",
+      "RelativePath": "Images/Category/bedroom_48a0ff13-db5e-45b2-b6db-d358fccadd8f#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "erdtnohsle",
+      "Integrity": "Fi5ip5xiYVDYHC+22o242f/pyFIkmSIjM1ItocWO++Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Category\\bedroom_48a0ff13-db5e-45b2-b6db-d358fccadd8f.png"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\kitchen_58782b30-4355-4d48-a271-8ed238f9ad84.png",
+      "SourceId": "QLNT_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\",
+      "BasePath": "_content/QLNT_API",
+      "RelativePath": "Images/Category/kitchen_58782b30-4355-4d48-a271-8ed238f9ad84#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n42zoao61o",
+      "Integrity": "h3UKwx2mj+Jt8tewXtN2pM21h1oB4f1q5RynB6WyQTc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Category\\kitchen_58782b30-4355-4d48-a271-8ed238f9ad84.png"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\living-room_282c4639-0c9a-491a-b113-2793172407e1.png",
+      "SourceId": "QLNT_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\",
+      "BasePath": "_content/QLNT_API",
+      "RelativePath": "Images/Category/living-room_282c4639-0c9a-491a-b113-2793172407e1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5797qjiwsz",
+      "Integrity": "ry/3xStlVt/La5aUcgSHNPn5a4/UMcjjHNSMDGpxRYc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Category\\living-room_282c4639-0c9a-491a-b113-2793172407e1.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Images/Category/bathroom_e1755dbf-43ef-41c4-97a6-228b9780cab4.jql0pkz5my.png",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\bathroom_e1755dbf-43ef-41c4-97a6-228b9780cab4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C2fapJ+CwNoMMx7MDAxdmT4Md/cVOmXNrBhTbyJD7XQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 19:54:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jql0pkz5my"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Category/bathroom_e1755dbf-43ef-41c4-97a6-228b9780cab4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C2fapJ+CwNoMMx7MDAxdmT4Md/cVOmXNrBhTbyJD7XQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Category/bathroom_e1755dbf-43ef-41c4-97a6-228b9780cab4.png",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\bathroom_e1755dbf-43ef-41c4-97a6-228b9780cab4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "995"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C2fapJ+CwNoMMx7MDAxdmT4Md/cVOmXNrBhTbyJD7XQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 19:54:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C2fapJ+CwNoMMx7MDAxdmT4Md/cVOmXNrBhTbyJD7XQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Category/bedroom_48a0ff13-db5e-45b2-b6db-d358fccadd8f.erdtnohsle.png",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\bedroom_48a0ff13-db5e-45b2-b6db-d358fccadd8f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fi5ip5xiYVDYHC+22o242f/pyFIkmSIjM1ItocWO++Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 20:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "erdtnohsle"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Category/bedroom_48a0ff13-db5e-45b2-b6db-d358fccadd8f.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fi5ip5xiYVDYHC+22o242f/pyFIkmSIjM1ItocWO++Q="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Category/bedroom_48a0ff13-db5e-45b2-b6db-d358fccadd8f.png",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\bedroom_48a0ff13-db5e-45b2-b6db-d358fccadd8f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fi5ip5xiYVDYHC+22o242f/pyFIkmSIjM1ItocWO++Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 20:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fi5ip5xiYVDYHC+22o242f/pyFIkmSIjM1ItocWO++Q="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Category/kitchen_58782b30-4355-4d48-a271-8ed238f9ad84.n42zoao61o.png",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\kitchen_58782b30-4355-4d48-a271-8ed238f9ad84.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h3UKwx2mj+Jt8tewXtN2pM21h1oB4f1q5RynB6WyQTc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 20:06:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n42zoao61o"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Category/kitchen_58782b30-4355-4d48-a271-8ed238f9ad84.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h3UKwx2mj+Jt8tewXtN2pM21h1oB4f1q5RynB6WyQTc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Category/kitchen_58782b30-4355-4d48-a271-8ed238f9ad84.png",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\kitchen_58782b30-4355-4d48-a271-8ed238f9ad84.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h3UKwx2mj+Jt8tewXtN2pM21h1oB4f1q5RynB6WyQTc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 20:06:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h3UKwx2mj+Jt8tewXtN2pM21h1oB4f1q5RynB6WyQTc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Category/living-room_282c4639-0c9a-491a-b113-2793172407e1.5797qjiwsz.png",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\living-room_282c4639-0c9a-491a-b113-2793172407e1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ry/3xStlVt/La5aUcgSHNPn5a4/UMcjjHNSMDGpxRYc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 19:53:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5797qjiwsz"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Category/living-room_282c4639-0c9a-491a-b113-2793172407e1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ry/3xStlVt/La5aUcgSHNPn5a4/UMcjjHNSMDGpxRYc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Category/living-room_282c4639-0c9a-491a-b113-2793172407e1.png",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\living-room_282c4639-0c9a-491a-b113-2793172407e1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ry/3xStlVt/La5aUcgSHNPn5a4/UMcjjHNSMDGpxRYc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Apr 2025 19:53:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ry/3xStlVt/La5aUcgSHNPn5a4/UMcjjHNSMDGpxRYc="
+        }
+      ]
+    }
+  ]
+}

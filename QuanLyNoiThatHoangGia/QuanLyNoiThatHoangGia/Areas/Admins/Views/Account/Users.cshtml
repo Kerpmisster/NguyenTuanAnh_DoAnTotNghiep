@@ -1,0 +1,33 @@
+﻿@model List<UserViewModel>
+
+@{
+    ViewData["Title"] = "Users";
+    Layout = "~/Areas/Admins/Views/Shared/_Admin.cshtml";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Số thứ tự</th>
+            <th>Tên tài khoản</th>
+            <th>Email</th>
+            <th>Quyền</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int stt = 1;
+        }
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@stt</td>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>@user.DisplayRole</td>
+            </tr>
+            stt++;
+        }
+    </tbody>
+</table>
+

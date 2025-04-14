@@ -1,0 +1,625 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\QuanLyNoiThatHoangGia.bundle.scp.css",
+      "PackagePath": "staticwebassets\\QuanLyNoiThatHoangGia.4qm2u61p3m.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\adminlte.css",
+      "PackagePath": "staticwebassets\\css\\adminlte.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\adminlte.css.map",
+      "PackagePath": "staticwebassets\\css\\adminlte.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\adminlte.min.css",
+      "PackagePath": "staticwebassets\\css\\adminlte.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\adminlte.min.css.map",
+      "PackagePath": "staticwebassets\\css\\adminlte.min.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.components.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.components.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.components.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.components.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.components.min.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.core.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.core.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.core.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.core.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.core.min.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.extra-components.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.extra-components.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.extra-components.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.extra-components.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.extra-components.min.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.light.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.light.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.light.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.light.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.light.min.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.pages.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.pages.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.pages.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.pages.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.pages.min.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.plugins.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.plugins.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.plugins.min.css",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\alt\\adminlte.plugins.min.css.map",
+      "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.min.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\animate.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\datepicker.css",
+      "PackagePath": "staticwebassets\\css\\datepicker.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\fonts.css",
+      "PackagePath": "staticwebassets\\css\\fonts.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\icofont.css",
+      "PackagePath": "staticwebassets\\css\\icofont.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\owl-carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl-carousel.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\Gotham-Bold.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-Bold.otf"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\Gotham-BoldItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-BoldItalic.otf"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\Gotham-Light.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-Light.otf"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\Gotham-LightItalic.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-LightItalic.otf"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\Gotham-Medium.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-Medium.otf"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\Gotham-Thin.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-Thin.otf"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\Gotham-Ultra.otf",
+      "PackagePath": "staticwebassets\\fonts\\Gotham-Ultra.otf"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\icofont.eot",
+      "PackagePath": "staticwebassets\\fonts\\icofont.eot"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\icofont.svg",
+      "PackagePath": "staticwebassets\\fonts\\icofont.svg"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\icofont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\icofont.ttf"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\icofont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\icofont.woff2"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\.eslintrc.json",
+      "PackagePath": "staticwebassets\\js\\.eslintrc.json"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\adminlte.js",
+      "PackagePath": "staticwebassets\\js\\adminlte.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\adminlte.js.map",
+      "PackagePath": "staticwebassets\\js\\adminlte.js.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\adminlte.min.js",
+      "PackagePath": "staticwebassets\\js\\adminlte.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\adminlte.min.js.map",
+      "PackagePath": "staticwebassets\\js\\adminlte.min.js.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\colors.js",
+      "PackagePath": "staticwebassets\\js\\colors.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\demo.js",
+      "PackagePath": "staticwebassets\\js\\demo.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\easing.js",
+      "PackagePath": "staticwebassets\\js\\easing.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\js\\gmaps.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\jquery-migrate-3.0.0.js",
+      "PackagePath": "staticwebassets\\js\\jquery-migrate-3.0.0.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\jquery.nav.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nav.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\map-active.js",
+      "PackagePath": "staticwebassets\\js\\map-active.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\niceselect.js",
+      "PackagePath": "staticwebassets\\js\\niceselect.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\pages\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\pages\\dashboard2.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard2.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\pages\\dashboard3.js",
+      "PackagePath": "staticwebassets\\js\\pages\\dashboard3.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\slicknav.min.js",
+      "PackagePath": "staticwebassets\\js\\slicknav.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\steller.js",
+      "PackagePath": "staticwebassets\\js\\steller.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\tilt.jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\tilt.jquery.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\js\\wow.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QuanLyNoiThatHoangGia.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QuanLyNoiThatHoangGia.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.QuanLyNoiThatHoangGia.props",
+      "PackagePath": "build\\QuanLyNoiThatHoangGia.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.QuanLyNoiThatHoangGia.props",
+      "PackagePath": "buildMultiTargeting\\QuanLyNoiThatHoangGia.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.QuanLyNoiThatHoangGia.props",
+      "PackagePath": "buildTransitive\\QuanLyNoiThatHoangGia.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

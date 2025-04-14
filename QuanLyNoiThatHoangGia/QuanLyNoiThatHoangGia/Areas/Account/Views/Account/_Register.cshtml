@@ -1,0 +1,64 @@
+﻿@model QuanLyNoiThatHoangGia.Areas.Account.Models.RegisterViewModel
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"/>
+
+<div>
+    <h3>Đăng ký</h3>
+    <form asp-action="Register" method="post" id="registerForm">
+        <div>
+            <label>Tên tài khoản</label>
+            <input asp-for="Username" />
+            <span asp-validation-for="Username"></span>
+        </div>
+        <div>
+            <label>Email</label>
+            <input asp-for="Email" />
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div>
+            <label>Mật khẩu</label>
+            <input asp-for="Password" type="password" />
+            <span asp-validation-for="Password"></span>
+        </div>
+        <div>
+            <label>Xác nhận mật khẩu</label>
+            <input asp-for="ConfirmPassword" type="password" />
+            <span asp-validation-for="ConfirmPassword"></span>
+        </div>
+        <button type="submit">Đăng ký</button>
+        <a class="btn btn-primary" asp-area="Account" asp-controller="Account" asp-action="Login">Đăng nhập</a>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#registerForm').submit(function (e) {
+            e.preventDefault();
+
+            var formData = $(this).serialize();
+
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("Register", "Account", new { area = "Account" })',
+                data: formData,
+                dataType: 'json',
+                success: function (response) {
+                    if (response.success) {
+                        alert(response.message);
+                        window.location.href = '@Url.Action("Login", "Account", new { area = "Account" })';
+                    } else {
+                        alert("Đăng ký không thành công. Vui lòng thử lại.");
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.log("Lỗi: " + error);
+                    alert("Có lỗi xảy ra. Vui lòng thử lại.");
+                }
+            });
+        });
+    });
+</script>
+

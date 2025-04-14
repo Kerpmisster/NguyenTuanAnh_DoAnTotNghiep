@@ -1,0 +1,4 @@
+wwwroot\Images\Category\bathroom_e1755dbf-43ef-41c4-97a6-228b9780cab4.png
+wwwroot\Images\Category\bedroom_48a0ff13-db5e-45b2-b6db-d358fccadd8f.png
+wwwroot\Images\Category\kitchen_58782b30-4355-4d48-a271-8ed238f9ad84.png
+wwwroot\Images\Category\living-room_282c4639-0c9a-491a-b113-2793172407e1.png

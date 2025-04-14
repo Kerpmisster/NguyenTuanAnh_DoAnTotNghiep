@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\bathroom_e1755dbf-43ef-41c4-97a6-228b9780cab4.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\bathroom_e1755dbf-43ef-41c4-97a6-228b9780cab4.png"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\bedroom_48a0ff13-db5e-45b2-b6db-d358fccadd8f.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\bedroom_48a0ff13-db5e-45b2-b6db-d358fccadd8f.png"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\kitchen_58782b30-4355-4d48-a271-8ed238f9ad84.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\kitchen_58782b30-4355-4d48-a271-8ed238f9ad84.png"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QLNT_API\\QLNT_API\\wwwroot\\Images\\Category\\living-room_282c4639-0c9a-491a-b113-2793172407e1.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\living-room_282c4639-0c9a-491a-b113-2793172407e1.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QLNT_API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QLNT_API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.QLNT_API.props",
+      "PackagePath": "build\\QLNT_API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.QLNT_API.props",
+      "PackagePath": "buildMultiTargeting\\QLNT_API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.QLNT_API.props",
+      "PackagePath": "buildTransitive\\QLNT_API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,76 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Category\bathroom_e1755dbf-43ef-41c4-97a6-228b9780cab4.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>QLNT_API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QLNT_API</BasePath>
+      <RelativePath>Images/Category/bathroom_e1755dbf-43ef-41c4-97a6-228b9780cab4.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jql0pkz5my</Fingerprint>
+      <Integrity>C2fapJ+CwNoMMx7MDAxdmT4Md/cVOmXNrBhTbyJD7XQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Category\bathroom_e1755dbf-43ef-41c4-97a6-228b9780cab4.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Category\bedroom_48a0ff13-db5e-45b2-b6db-d358fccadd8f.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>QLNT_API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QLNT_API</BasePath>
+      <RelativePath>Images/Category/bedroom_48a0ff13-db5e-45b2-b6db-d358fccadd8f.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>erdtnohsle</Fingerprint>
+      <Integrity>Fi5ip5xiYVDYHC+22o242f/pyFIkmSIjM1ItocWO++Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Category\bedroom_48a0ff13-db5e-45b2-b6db-d358fccadd8f.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Category\kitchen_58782b30-4355-4d48-a271-8ed238f9ad84.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>QLNT_API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QLNT_API</BasePath>
+      <RelativePath>Images/Category/kitchen_58782b30-4355-4d48-a271-8ed238f9ad84.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>n42zoao61o</Fingerprint>
+      <Integrity>h3UKwx2mj+Jt8tewXtN2pM21h1oB4f1q5RynB6WyQTc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Category\kitchen_58782b30-4355-4d48-a271-8ed238f9ad84.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Category\living-room_282c4639-0c9a-491a-b113-2793172407e1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>QLNT_API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QLNT_API</BasePath>
+      <RelativePath>Images/Category/living-room_282c4639-0c9a-491a-b113-2793172407e1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5797qjiwsz</Fingerprint>
+      <Integrity>ry/3xStlVt/La5aUcgSHNPn5a4/UMcjjHNSMDGpxRYc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Category\living-room_282c4639-0c9a-491a-b113-2793172407e1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

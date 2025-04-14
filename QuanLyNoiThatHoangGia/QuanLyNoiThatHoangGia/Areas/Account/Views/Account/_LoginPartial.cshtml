@@ -1,0 +1,78 @@
+﻿@model QuanLyNoiThatHoangGia.Areas.Account.Models.LoginViewModel
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+
+<div id="loginPartialContainer"></div>
+
+<form id="loginForm" asp-action="Login" method="post">
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div>
+        <label>Mật khẩu</label>
+        <input asp-for="Password" type="password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+    <div>
+        <input asp-for="RememberMe" type="checkbox" />
+        <label asp-for="RememberMe">Ghi nhớ đăng nhập</label>
+    </div>
+    <button type="submit">Đăng nhập</button>
+</form>
+
+<p>
+    <a href="javascript:void(0)" id="showRegisterForm">
+        Đăng ký
+    </a>
+</p>
+
+<div id="registerFormContainer"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+       $('#loginForm').submit(function (e) {
+        e.preventDefault();
+
+        $.ajax({
+            url: '@Url.Action("Login", "Account", new { area = "Account" })',
+            type: 'POST',
+            dataType: 'json',
+            data: $(this).serialize(),
+            success: function (res) {
+                console.log("Server response:", res); // Log the response for debugging
+                if (res.success) {
+                    window.location.href = res.redirectUrl;
+                } else {
+                    let errorMessage = res.errors ? res.errors.join('<br/>') : 'Có lỗi xảy ra';
+                    $('#loginPartialContainer').html('<div class="alert alert-danger">' + errorMessage + '</div>');
+                }
+            },
+            error: function (xhr, status, error) {
+                console.log("AJAX error:", xhr, status, error); // Log any AJAX errors
+                $('#loginPartialContainer').html('<div class="alert alert-danger">Lỗi kết nối server</div>');
+            }
+            });
+        });
+
+        $('#showRegisterForm').click(function () {
+            $.ajax({
+                url: '@Url.Action("Register", "Account", new { area = "Account" })',
+                type: 'GET',
+                success: function (html) {
+                    $('#loginForm').hide(); // Ẩn form đăng nhập
+                    $('#showRegisterForm').hide(); // Ẩn link "Đăng ký"
+                    $('#registerFormContainer').html(html);
+                },
+                error: function () {
+                    alert("Không thể tải form đăng ký.");
+                }
+            });
+        });
+
+    });
+</script>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\QLNT_API.props" />
+</Project>
