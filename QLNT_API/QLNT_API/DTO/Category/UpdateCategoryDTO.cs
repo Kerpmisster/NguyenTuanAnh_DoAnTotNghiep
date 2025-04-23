@@ -2,7 +2,6 @@
 {
     public class UpdateCategoryDTO
     {
-        public int Id { get; set; }
         public string? Title { get; set; }
         public IFormFile? Icon { get; set; } // upload mới nếu muốn thay ảnh
         public string? MetaTitle { get; set; }

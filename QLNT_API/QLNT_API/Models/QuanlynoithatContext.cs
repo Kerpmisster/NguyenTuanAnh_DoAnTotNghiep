@@ -27,11 +27,7 @@ public partial class QuanlynoithatContext : DbContext
 
     public virtual DbSet<AspNetUserToken> AspNetUserTokens { get; set; }
 
-    public virtual DbSet<Banner> Banners { get; set; }
-
     public virtual DbSet<Category> Categories { get; set; }
-
-    public virtual DbSet<CategoryChild> CategoryChildren { get; set; }
 
     public virtual DbSet<Contact> Contacts { get; set; }
 
@@ -39,9 +35,15 @@ public partial class QuanlynoithatContext : DbContext
 
     public virtual DbSet<EmailConfirmation> EmailConfirmations { get; set; }
 
+    public virtual DbSet<ExportReceipt> ExportReceipts { get; set; }
+
+    public virtual DbSet<ExportReceiptDetail> ExportReceiptDetails { get; set; }
+
     public virtual DbSet<Extension> Extensions { get; set; }
 
-    public virtual DbSet<InforCompany> InforCompanies { get; set; }
+    public virtual DbSet<ImportReceipt> ImportReceipts { get; set; }
+
+    public virtual DbSet<ImportReceiptDetail> ImportReceiptDetails { get; set; }
 
     public virtual DbSet<Introduction> Introductions { get; set; }
 
@@ -55,8 +57,6 @@ public partial class QuanlynoithatContext : DbContext
 
     public virtual DbSet<Partner> Partners { get; set; }
 
-    public virtual DbSet<PaymentMethod> PaymentMethods { get; set; }
-
     public virtual DbSet<Product> Products { get; set; }
 
     public virtual DbSet<ProductExtension> ProductExtensions { get; set; }
@@ -65,7 +65,11 @@ public partial class QuanlynoithatContext : DbContext
 
     public virtual DbSet<ProductMaterial> ProductMaterials { get; set; }
 
-    public virtual DbSet<Slide> Slides { get; set; }
+    public virtual DbSet<Supplier> Suppliers { get; set; }
+
+    public virtual DbSet<Warehouse> Warehouses { get; set; }
+
+    public virtual DbSet<WarehouseDetail> WarehouseDetails { get; set; }
 
 //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -139,39 +143,6 @@ public partial class QuanlynoithatContext : DbContext
             entity.HasOne(d => d.User).WithMany(p => p.AspNetUserTokens).HasForeignKey(d => d.UserId);
         });
 
-        modelBuilder.Entity<Banner>(entity =>
-        {
-            entity.HasKey(e => e.Id).HasName("PK__BANNER__3214EC274D7E8BD5");
-
-            entity.ToTable("BANNER");
-
-            entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.CreatedDate)
-                .HasColumnType("datetime")
-                .HasColumnName("CREATED_DATE");
-            entity.Property(e => e.Image)
-                .HasMaxLength(255)
-                .HasColumnName("IMAGE");
-            entity.Property(e => e.Isdelete).HasColumnName("ISDELETE");
-            entity.Property(e => e.Orders).HasColumnName("ORDERS");
-            entity.Property(e => e.Status).HasColumnName("STATUS");
-            entity.Property(e => e.SubTitle)
-                .HasMaxLength(255)
-                .HasColumnName("SUB_TITLE");
-            entity.Property(e => e.Title)
-                .HasMaxLength(255)
-                .HasColumnName("TITLE");
-            entity.Property(e => e.Type)
-                .HasMaxLength(500)
-                .HasColumnName("TYPE");
-            entity.Property(e => e.UpdatedDate)
-                .HasColumnType("datetime")
-                .HasColumnName("UPDATED_DATE");
-            entity.Property(e => e.Urls)
-                .HasMaxLength(255)
-                .HasColumnName("URLS");
-        });
-
         modelBuilder.Entity<Category>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__PRODUCT___A88186B13985BFD1");
@@ -213,47 +184,23 @@ public partial class QuanlynoithatContext : DbContext
                 .HasConstraintName("FK_CATEGORY_CATEGORY");
         });
 
-        modelBuilder.Entity<CategoryChild>(entity =>
-        {
-            entity.ToTable("CATEGORY_CHILD");
-
-            entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.CategoryId).HasColumnName("CATEGORY_ID");
-            entity.Property(e => e.Title)
-                .HasMaxLength(250)
-                .HasColumnName("TITLE");
-
-            entity.HasOne(d => d.Category).WithMany(p => p.CategoryChildren)
-                .HasForeignKey(d => d.CategoryId)
-                .OnDelete(DeleteBehavior.Cascade)
-                .HasConstraintName("FK_CATEGORY_CHILD_CATEGORY");
-        });
-
         modelBuilder.Entity<Contact>(entity =>
         {
             entity.ToTable("CONTACT");
 
             entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.Address)
-                .HasMaxLength(255)
-                .HasColumnName("ADDRESS");
-            entity.Property(e => e.Content)
-                .HasColumnType("ntext")
-                .HasColumnName("CONTENT");
+            entity.Property(e => e.Content).HasColumnName("CONTENT");
             entity.Property(e => e.CreatedDate)
                 .HasColumnType("datetime")
                 .HasColumnName("CREATED_DATE");
-            entity.Property(e => e.Email)
-                .HasMaxLength(255)
-                .HasColumnName("EMAIL");
+            entity.Property(e => e.Fullname)
+                .HasMaxLength(500)
+                .HasColumnName("FULLNAME");
             entity.Property(e => e.Isdelete).HasColumnName("ISDELETE");
             entity.Property(e => e.Phone)
-                .HasMaxLength(255)
+                .HasMaxLength(50)
                 .HasColumnName("PHONE");
             entity.Property(e => e.Status).HasColumnName("STATUS");
-            entity.Property(e => e.Title)
-                .HasMaxLength(255)
-                .HasColumnName("TITLE");
             entity.Property(e => e.UpdatedDate)
                 .HasColumnType("datetime")
                 .HasColumnName("UPDATED_DATE");
@@ -310,6 +257,55 @@ public partial class QuanlynoithatContext : DbContext
                 .HasConstraintName("FK_EmailConfirmation_AspNetUsers");
         });
 
+        modelBuilder.Entity<ExportReceipt>(entity =>
+        {
+            entity.ToTable("EXPORT_RECEIPTS");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.Code)
+                .HasMaxLength(50)
+                .HasColumnName("CODE");
+            entity.Property(e => e.CreatedBy)
+                .HasMaxLength(500)
+                .HasColumnName("CREATED_BY");
+            entity.Property(e => e.Date)
+                .HasColumnType("datetime")
+                .HasColumnName("DATE");
+            entity.Property(e => e.Total)
+                .HasColumnType("decimal(18, 0)")
+                .HasColumnName("TOTAL");
+            entity.Property(e => e.UserId)
+                .HasMaxLength(450)
+                .HasColumnName("USER_ID");
+            entity.Property(e => e.WarehouseId).HasColumnName("WAREHOUSE_ID");
+
+            entity.HasOne(d => d.User).WithMany(p => p.ExportReceipts)
+                .HasForeignKey(d => d.UserId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK_EXPORT_RECEIPTS_AspNetUsers");
+
+            entity.HasOne(d => d.Warehouse).WithMany(p => p.ExportReceipts)
+                .HasForeignKey(d => d.WarehouseId)
+                .HasConstraintName("FK_EXPORT_RECEIPTS_WAREHOUSE");
+        });
+
+        modelBuilder.Entity<ExportReceiptDetail>(entity =>
+        {
+            entity.ToTable("EXPORT_RECEIPT_DETAIL");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.ExportReceiptId).HasColumnName("EXPORT_RECEIPT_ID");
+            entity.Property(e => e.Price)
+                .HasColumnType("decimal(18, 0)")
+                .HasColumnName("PRICE");
+            entity.Property(e => e.ProductId).HasColumnName("PRODUCT_ID");
+            entity.Property(e => e.Quantity).HasColumnName("QUANTITY");
+
+            entity.HasOne(d => d.ExportReceipt).WithMany(p => p.ExportReceiptDetails)
+                .HasForeignKey(d => d.ExportReceiptId)
+                .HasConstraintName("FK_EXPORT_RECEIPT_DETAIL_EXPORT_RECEIPTS");
+        });
+
         modelBuilder.Entity<Extension>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__PRODUCT___EXTENSION");
@@ -317,32 +313,16 @@ public partial class QuanlynoithatContext : DbContext
             entity.ToTable("EXTENSION");
 
             entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.AdminCreated)
-                .HasMaxLength(255)
-                .HasColumnName("ADMIN_CREATED");
-            entity.Property(e => e.AdminUpdated)
-                .HasMaxLength(255)
-                .HasColumnName("ADMIN_UPDATED");
             entity.Property(e => e.CreatedDate)
                 .HasColumnType("datetime")
                 .HasColumnName("CREATED_DATE");
-            entity.Property(e => e.Icon)
-                .HasMaxLength(200)
-                .HasColumnName("ICON");
             entity.Property(e => e.Isdelete).HasColumnName("ISDELETE");
             entity.Property(e => e.MetaDescription)
                 .HasMaxLength(500)
                 .HasColumnName("META_DESCRIPTION");
-            entity.Property(e => e.MetaKeyword)
-                .HasMaxLength(500)
-                .HasColumnName("META_KEYWORD");
             entity.Property(e => e.MetaTitle)
                 .HasMaxLength(500)
                 .HasColumnName("META_TITLE");
-            entity.Property(e => e.Notes)
-                .HasColumnType("ntext")
-                .HasColumnName("NOTES");
-            entity.Property(e => e.Orders).HasColumnName("ORDERS");
             entity.Property(e => e.Parentid).HasColumnName("PARENTID");
             entity.Property(e => e.Slug)
                 .HasMaxLength(500)
@@ -360,47 +340,54 @@ public partial class QuanlynoithatContext : DbContext
                 .HasConstraintName("FK_EXTENSION_EXTENSION");
         });
 
-        modelBuilder.Entity<InforCompany>(entity =>
+        modelBuilder.Entity<ImportReceipt>(entity =>
         {
-            entity.ToTable("INFOR_COMPANY");
+            entity.ToTable("IMPORT_RECEIPTS");
 
             entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.Address)
-                .HasMaxLength(255)
-                .HasColumnName("ADDRESS");
-            entity.Property(e => e.CreatedDate).HasColumnName("CREATED_DATE");
-            entity.Property(e => e.Email)
-                .HasMaxLength(255)
-                .HasColumnName("EMAIL");
-            entity.Property(e => e.Facebook)
+            entity.Property(e => e.Code)
+                .HasMaxLength(50)
+                .HasColumnName("CODE");
+            entity.Property(e => e.CreatedBy)
                 .HasMaxLength(500)
-                .HasColumnName("FACEBOOK");
-            entity.Property(e => e.Instagram)
-                .HasMaxLength(500)
-                .HasColumnName("INSTAGRAM");
-            entity.Property(e => e.Logo)
-                .HasMaxLength(500)
-                .IsUnicode(false)
-                .HasColumnName("LOGO");
-            entity.Property(e => e.MetaDescription)
-                .HasMaxLength(500)
-                .HasColumnName("META_DESCRIPTION");
-            entity.Property(e => e.MetaKeyword)
-                .HasMaxLength(500)
-                .HasColumnName("META_KEYWORD");
-            entity.Property(e => e.MetaTitle)
-                .HasMaxLength(500)
-                .HasColumnName("META_TITLE");
-            entity.Property(e => e.Name)
-                .HasMaxLength(255)
-                .HasColumnName("NAME");
-            entity.Property(e => e.Phone)
-                .HasMaxLength(255)
-                .HasColumnName("PHONE");
-            entity.Property(e => e.UpdateDate).HasColumnName("UPDATE_DATE");
-            entity.Property(e => e.Youtube)
-                .HasMaxLength(500)
-                .HasColumnName("YOUTUBE");
+                .HasColumnName("CREATED_BY");
+            entity.Property(e => e.Date)
+                .HasColumnType("datetime")
+                .HasColumnName("DATE");
+            entity.Property(e => e.SupplierId).HasColumnName("SUPPLIER_ID");
+            entity.Property(e => e.Total)
+                .HasColumnType("decimal(18, 0)")
+                .HasColumnName("TOTAL");
+            entity.Property(e => e.WarehouseId).HasColumnName("WAREHOUSE_ID");
+
+            entity.HasOne(d => d.Supplier).WithMany(p => p.ImportReceipts)
+                .HasForeignKey(d => d.SupplierId)
+                .HasConstraintName("FK_IMPORT_RECEIPTS_SUPPLIER");
+
+            entity.HasOne(d => d.Warehouse).WithMany(p => p.ImportReceipts)
+                .HasForeignKey(d => d.WarehouseId)
+                .HasConstraintName("FK_IMPORT_RECEIPTS_WAREHOUSE");
+        });
+
+        modelBuilder.Entity<ImportReceiptDetail>(entity =>
+        {
+            entity.ToTable("IMPORT_RECEIPT_DETAIL");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.ImportReceiptId).HasColumnName("IMPORT_RECEIPT_ID");
+            entity.Property(e => e.Price)
+                .HasColumnType("decimal(18, 0)")
+                .HasColumnName("PRICE");
+            entity.Property(e => e.ProductId).HasColumnName("PRODUCT_ID");
+            entity.Property(e => e.Quantity).HasColumnName("QUANTITY");
+
+            entity.HasOne(d => d.ImportReceipt).WithMany(p => p.ImportReceiptDetails)
+                .HasForeignKey(d => d.ImportReceiptId)
+                .HasConstraintName("FK_IMPORT_RECEIPT_DETAIL_IMPORT_RECEIPTS");
+
+            entity.HasOne(d => d.Product).WithMany(p => p.ImportReceiptDetails)
+                .HasForeignKey(d => d.ProductId)
+                .HasConstraintName("FK_IMPORT_RECEIPT_DETAIL_PRODUCT");
         });
 
         modelBuilder.Entity<Introduction>(entity =>
@@ -410,14 +397,10 @@ public partial class QuanlynoithatContext : DbContext
             entity.ToTable("INTRODUCTIONS");
 
             entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.Content)
-                .HasColumnType("ntext")
-                .HasColumnName("CONTENT");
             entity.Property(e => e.CreatedDate)
                 .HasColumnType("datetime")
                 .HasColumnName("CREATED_DATE");
             entity.Property(e => e.Description).HasColumnName("DESCRIPTION");
-            entity.Property(e => e.Home).HasColumnName("HOME");
             entity.Property(e => e.Image)
                 .HasMaxLength(255)
                 .HasColumnName("IMAGE");
@@ -425,14 +408,9 @@ public partial class QuanlynoithatContext : DbContext
             entity.Property(e => e.MetaDescription)
                 .HasMaxLength(4000)
                 .HasColumnName("META_DESCRIPTION");
-            entity.Property(e => e.MetaKeyword)
-                .HasMaxLength(500)
-                .HasColumnName("META_KEYWORD");
             entity.Property(e => e.MetaTitle)
                 .HasMaxLength(500)
                 .HasColumnName("META_TITLE");
-            entity.Property(e => e.Orders).HasColumnName("ORDERS");
-            entity.Property(e => e.Parentid).HasColumnName("PARENTID");
             entity.Property(e => e.Slug)
                 .HasMaxLength(500)
                 .HasColumnName("SLUG");
@@ -440,7 +418,6 @@ public partial class QuanlynoithatContext : DbContext
             entity.Property(e => e.Title)
                 .HasMaxLength(300)
                 .HasColumnName("TITLE");
-            entity.Property(e => e.Type).HasColumnName("TYPE");
             entity.Property(e => e.UpdatedDate)
                 .HasColumnType("datetime")
                 .HasColumnName("UPDATED_DATE");
@@ -453,32 +430,16 @@ public partial class QuanlynoithatContext : DbContext
             entity.ToTable("MATERIAL");
 
             entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.AdminCreated)
-                .HasMaxLength(255)
-                .HasColumnName("ADMIN_CREATED");
-            entity.Property(e => e.AdminUpdated)
-                .HasMaxLength(255)
-                .HasColumnName("ADMIN_UPDATED");
             entity.Property(e => e.CreatedDate)
                 .HasColumnType("datetime")
                 .HasColumnName("CREATED_DATE");
-            entity.Property(e => e.Icon)
-                .HasMaxLength(200)
-                .HasColumnName("ICON");
             entity.Property(e => e.Isdelete).HasColumnName("ISDELETE");
             entity.Property(e => e.MetaDescription)
                 .HasMaxLength(500)
                 .HasColumnName("META_DESCRIPTION");
-            entity.Property(e => e.MetaKeyword)
-                .HasMaxLength(500)
-                .HasColumnName("META_KEYWORD");
             entity.Property(e => e.MetaTitle)
                 .HasMaxLength(500)
                 .HasColumnName("META_TITLE");
-            entity.Property(e => e.Notes)
-                .HasColumnType("ntext")
-                .HasColumnName("NOTES");
-            entity.Property(e => e.Orders).HasColumnName("ORDERS");
             entity.Property(e => e.Parentid).HasColumnName("PARENTID");
             entity.Property(e => e.Slug)
                 .HasMaxLength(500)
@@ -503,12 +464,6 @@ public partial class QuanlynoithatContext : DbContext
             entity.ToTable("NEWS");
 
             entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.Code)
-                .HasMaxLength(10)
-                .HasColumnName("CODE");
-            entity.Property(e => e.Content)
-                .HasColumnType("ntext")
-                .HasColumnName("CONTENT");
             entity.Property(e => e.CreatedDate)
                 .HasColumnType("datetime")
                 .HasColumnName("CREATED_DATE");
@@ -516,22 +471,15 @@ public partial class QuanlynoithatContext : DbContext
             entity.Property(e => e.Image).HasColumnName("IMAGE");
             entity.Property(e => e.Isdelete).HasColumnName("ISDELETE");
             entity.Property(e => e.Likes).HasColumnName("LIKES");
-            entity.Property(e => e.MainKeyword)
-                .HasMaxLength(500)
-                .HasColumnName("MAIN_KEYWORD");
             entity.Property(e => e.MetaDescription)
                 .HasMaxLength(500)
                 .HasColumnName("META_DESCRIPTION");
-            entity.Property(e => e.MetaKeyword)
-                .HasMaxLength(500)
-                .HasColumnName("META_KEYWORD");
             entity.Property(e => e.MetaTitle)
                 .HasMaxLength(500)
                 .HasColumnName("META_TITLE");
             entity.Property(e => e.Slug)
                 .HasMaxLength(500)
                 .HasColumnName("SLUG");
-            entity.Property(e => e.Star).HasColumnName("STAR");
             entity.Property(e => e.Status).HasColumnName("STATUS");
             entity.Property(e => e.Title)
                 .HasMaxLength(200)
@@ -547,60 +495,61 @@ public partial class QuanlynoithatContext : DbContext
             entity.ToTable("ORDERS");
 
             entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.Address).HasColumnName("ADDRESS");
+            entity.Property(e => e.Address)
+                .HasMaxLength(500)
+                .HasColumnName("ADDRESS");
             entity.Property(e => e.Email)
-                .HasMaxLength(250)
+                .HasMaxLength(150)
                 .HasColumnName("EMAIL");
-            entity.Property(e => e.IdCustomer).HasColumnName("ID_CUSTOMER");
-            entity.Property(e => e.IdOrders).HasColumnName("ID_ORDERS");
-            entity.Property(e => e.IdPayment).HasColumnName("ID_PAYMENT");
-            entity.Property(e => e.Isactive).HasColumnName("ISACTIVE");
+            entity.Property(e => e.Idpayment).HasColumnName("IDPAYMENT");
             entity.Property(e => e.Isdelete).HasColumnName("ISDELETE");
             entity.Property(e => e.NameReciver)
                 .HasMaxLength(250)
                 .HasColumnName("NAME_RECIVER");
-            entity.Property(e => e.Notes)
-                .HasColumnType("ntext")
-                .HasColumnName("NOTES");
             entity.Property(e => e.OrdersDate)
                 .HasColumnType("datetime")
                 .HasColumnName("ORDERS_DATE");
             entity.Property(e => e.Phone)
-                .HasMaxLength(250)
+                .HasMaxLength(50)
                 .HasColumnName("PHONE");
             entity.Property(e => e.TotalMoney)
                 .HasColumnType("decimal(18, 0)")
                 .HasColumnName("TOTAL_MONEY");
+            entity.Property(e => e.UserId)
+                .HasMaxLength(450)
+                .HasColumnName("USER_ID");
 
-            entity.HasOne(d => d.IdCustomerNavigation).WithMany(p => p.Orders)
-                .HasForeignKey(d => d.IdCustomer)
-                .HasConstraintName("FK_ORDERS_CUSTOMER");
-
-            entity.HasOne(d => d.IdOrdersNavigation).WithMany(p => p.Orders)
-                .HasForeignKey(d => d.IdOrders)
+            entity.HasOne(d => d.User).WithMany(p => p.Orders)
+                .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.Cascade)
-                .HasConstraintName("FK_ORDERS_ORDERDETAILS");
+                .HasConstraintName("FK_ORDERS_AspNetUsers");
         });
 
         modelBuilder.Entity<Orderdetail>(entity =>
         {
-            entity.ToTable("ORDERDETAILS");
+            entity.ToTable("ORDERDETAIL");
 
             entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.IdOrder).HasColumnName("ID_ORDER");
-            entity.Property(e => e.IdProduct).HasColumnName("ID_PRODUCT");
+            entity.Property(e => e.OrderId).HasColumnName("ORDER_ID");
             entity.Property(e => e.Price)
                 .HasColumnType("decimal(18, 0)")
                 .HasColumnName("PRICE");
+            entity.Property(e => e.ProductId).HasColumnName("PRODUCT_ID");
             entity.Property(e => e.Qty).HasColumnName("QTY");
             entity.Property(e => e.ReturnQty).HasColumnName("RETURN_QTY");
             entity.Property(e => e.Total)
                 .HasColumnType("decimal(18, 0)")
                 .HasColumnName("TOTAL");
 
-            entity.HasOne(d => d.IdProductNavigation).WithMany(p => p.Orderdetails)
-                .HasForeignKey(d => d.IdProduct)
-                .HasConstraintName("FK_ORDERDETAILS_PRODUCT");
+            entity.HasOne(d => d.Order).WithMany(p => p.Orderdetails)
+                .HasForeignKey(d => d.OrderId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK_ORDERDETAIL_ORDERS");
+
+            entity.HasOne(d => d.Product).WithMany(p => p.Orderdetails)
+                .HasForeignKey(d => d.ProductId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK_ORDERDETAIL_PRODUCT");
         });
 
         modelBuilder.Entity<Partner>(entity =>
@@ -631,29 +580,6 @@ public partial class QuanlynoithatContext : DbContext
                 .HasColumnName("URL");
         });
 
-        modelBuilder.Entity<PaymentMethod>(entity =>
-        {
-            entity.ToTable("PAYMENT_METHOD");
-
-            entity.Property(e => e.Id)
-                .ValueGeneratedNever()
-                .HasColumnName("ID");
-            entity.Property(e => e.CreatedDate)
-                .HasColumnType("datetime")
-                .HasColumnName("CREATED_DATE");
-            entity.Property(e => e.Isactive).HasColumnName("ISACTIVE");
-            entity.Property(e => e.Isdelete).HasColumnName("ISDELETE");
-            entity.Property(e => e.Name)
-                .HasMaxLength(250)
-                .HasColumnName("NAME");
-            entity.Property(e => e.Notes)
-                .HasMaxLength(250)
-                .HasColumnName("NOTES");
-            entity.Property(e => e.UpdatedDate)
-                .HasColumnType("datetime")
-                .HasColumnName("UPDATED_DATE");
-        });
-
         modelBuilder.Entity<Product>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__PRODUCT__3214EC27E639B94D");
@@ -665,9 +591,6 @@ public partial class QuanlynoithatContext : DbContext
             entity.Property(e => e.Code)
                 .HasMaxLength(10)
                 .HasColumnName("CODE");
-            entity.Property(e => e.Content)
-                .HasColumnType("ntext")
-                .HasColumnName("CONTENT");
             entity.Property(e => e.CreatedDate)
                 .HasColumnType("datetime")
                 .HasColumnName("CREATED_DATE");
@@ -682,9 +605,6 @@ public partial class QuanlynoithatContext : DbContext
             entity.Property(e => e.MetaDescription)
                 .HasMaxLength(500)
                 .HasColumnName("META_DESCRIPTION");
-            entity.Property(e => e.MetaKeyword)
-                .HasMaxLength(500)
-                .HasColumnName("META_KEYWORD");
             entity.Property(e => e.MetaTitle)
                 .HasMaxLength(500)
                 .HasColumnName("META_TITLE");
@@ -694,13 +614,9 @@ public partial class QuanlynoithatContext : DbContext
             entity.Property(e => e.PriceOld)
                 .HasColumnType("decimal(18, 0)")
                 .HasColumnName("PRICE_OLD");
-            entity.Property(e => e.Size)
-                .HasMaxLength(500)
-                .HasColumnName("SIZE");
             entity.Property(e => e.Slug)
                 .HasMaxLength(500)
                 .HasColumnName("SLUG");
-            entity.Property(e => e.Star).HasColumnName("STAR");
             entity.Property(e => e.Status).HasColumnName("STATUS");
             entity.Property(e => e.Title)
                 .HasMaxLength(255)
@@ -722,9 +638,6 @@ public partial class QuanlynoithatContext : DbContext
             entity.ToTable("PRODUCT_EXTENSIONS");
 
             entity.Property(e => e.Id).HasColumnName("ID");
-            entity.Property(e => e.Content)
-                .HasColumnType("ntext")
-                .HasColumnName("CONTENT");
             entity.Property(e => e.Eid).HasColumnName("EID");
             entity.Property(e => e.Pid).HasColumnName("PID");
 
@@ -778,34 +691,81 @@ public partial class QuanlynoithatContext : DbContext
                 .HasConstraintName("FK_PRODUCT_MATERIALS_PRODUCT");
         });
 
-        modelBuilder.Entity<Slide>(entity =>
+        modelBuilder.Entity<Supplier>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__SLIDES__3214EC274205760A");
-
-            entity.ToTable("SLIDES");
+            entity.ToTable("SUPPLIER");
 
             entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.Address)
+                .HasMaxLength(500)
+                .HasColumnName("ADDRESS");
+            entity.Property(e => e.Code)
+                .HasMaxLength(50)
+                .HasColumnName("CODE");
             entity.Property(e => e.CreatedDate)
                 .HasColumnType("datetime")
                 .HasColumnName("CREATED_DATE");
-            entity.Property(e => e.Image)
-                .HasMaxLength(255)
-                .HasColumnName("IMAGE");
-            entity.Property(e => e.Isdelete).HasColumnName("ISDELETE");
-            entity.Property(e => e.Orders).HasColumnName("ORDERS");
+            entity.Property(e => e.Email)
+                .HasMaxLength(50)
+                .HasColumnName("EMAIL");
+            entity.Property(e => e.Name)
+                .HasMaxLength(500)
+                .HasColumnName("NAME");
+            entity.Property(e => e.Phone)
+                .HasMaxLength(50)
+                .HasColumnName("PHONE");
             entity.Property(e => e.Status).HasColumnName("STATUS");
-            entity.Property(e => e.SubTitle)
-                .HasMaxLength(255)
-                .HasColumnName("SUB_TITLE");
-            entity.Property(e => e.Title)
-                .HasMaxLength(255)
-                .HasColumnName("TITLE");
             entity.Property(e => e.UpdatedDate)
                 .HasColumnType("datetime")
                 .HasColumnName("UPDATED_DATE");
-            entity.Property(e => e.Urls)
-                .HasMaxLength(255)
-                .HasColumnName("URLS");
+        });
+
+        modelBuilder.Entity<Warehouse>(entity =>
+        {
+            entity.ToTable("WAREHOUSE");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.Address)
+                .HasMaxLength(500)
+                .HasColumnName("ADDRESS");
+            entity.Property(e => e.Code)
+                .HasMaxLength(50)
+                .HasColumnName("CODE");
+            entity.Property(e => e.Createat)
+                .HasColumnType("datetime")
+                .HasColumnName("CREATEAT");
+            entity.Property(e => e.CreatedDate)
+                .HasColumnType("datetime")
+                .HasColumnName("CREATED_DATE");
+            entity.Property(e => e.Name)
+                .HasMaxLength(500)
+                .HasColumnName("NAME");
+            entity.Property(e => e.Phone)
+                .HasMaxLength(50)
+                .HasColumnName("PHONE");
+            entity.Property(e => e.Status).HasColumnName("STATUS");
+            entity.Property(e => e.UpdatedDate)
+                .HasColumnType("datetime")
+                .HasColumnName("UPDATED_DATE");
+        });
+
+        modelBuilder.Entity<WarehouseDetail>(entity =>
+        {
+            entity.ToTable("WAREHOUSE_DETAIL");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.MinQuantity).HasColumnName("MIN_QUANTITY");
+            entity.Property(e => e.ProductId).HasColumnName("PRODUCT_ID");
+            entity.Property(e => e.Quantity).HasColumnName("QUANTITY");
+            entity.Property(e => e.WarehouseId).HasColumnName("WAREHOUSE_ID");
+
+            entity.HasOne(d => d.Product).WithMany(p => p.WarehouseDetails)
+                .HasForeignKey(d => d.ProductId)
+                .HasConstraintName("FK_WAREHOUSE_DETAIL_PRODUCT");
+
+            entity.HasOne(d => d.Warehouse).WithMany(p => p.WarehouseDetails)
+                .HasForeignKey(d => d.WarehouseId)
+                .HasConstraintName("FK_WAREHOUSE_DETAIL_WAREHOUSE");
         });
 
         OnModelCreatingPartial(modelBuilder);

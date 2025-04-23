@@ -8,6 +8,7 @@ using QLNT_API.Data;
 using QLNT_API.Models;
 using QLNT_API.Services.AccountServices;
 using QLNT_API.Services.CategoryServices;
+using QLNT_API.Services.ProductServices;
 using QLNT_API.Services.RoleServices;
 using System.Security.Claims;
 using System.Text;
@@ -75,6 +76,7 @@ namespace QLNT_API
             builder.Services.AddScoped<SignInManager<IdentityUser>>();
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<IRoleService, RoleService>();
+            builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<ICategoryService, CategoryService>();
 
             builder.Services.AddControllers();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K9XMmOeU97SPU0hTkAOwzeM9eRTuoi+LkG5Sxkm4VuI=",
+  "Hash": "4SbSRtYbwvyRoRGO8iygVP7oXpV5z83MRgu26Sy6RAo=",
   "Source": "QuanLyNoiThatHoangGia",
   "BasePath": "_content/QuanLyNoiThatHoangGia",
   "Mode": "Default",
@@ -1333,8 +1333,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3ts38b2iul",
-      "Integrity": "l2glsG6+k2NsLH3sS79rcwaD6Ky4rcVfojatex0QDxs=",
+      "Fingerprint": "c0i6hjrypi",
+      "Integrity": "rK3+dOLZGkpfY6mSufll0DnuCJP5T48H95+JacaSpz4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\adminlte.css"
@@ -4446,11 +4446,284 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\logo\\Royal.png",
+      "SourceId": "QuanLyNoiThatHoangGia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\",
+      "BasePath": "_content/QuanLyNoiThatHoangGia",
+      "RelativePath": "user/images/logo/Royal#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r7lgcvfjf9",
+      "Integrity": "Z+d83MlG5cwNndtmI+QzFdcYmyvYObsnmQZweIedo5M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user\\images\\logo\\Royal.png"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\bathroom.jpg",
+      "SourceId": "QuanLyNoiThatHoangGia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\",
+      "BasePath": "_content/QuanLyNoiThatHoangGia",
+      "RelativePath": "user/images/slides/bathroom#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fxvjvllah9",
+      "Integrity": "Y+tXXkcbmWNBUQO/iwyhjXuTvi7wAIuVp3vfKNPdkMg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user\\images\\slides\\bathroom.jpg"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\bedroom.jpg",
+      "SourceId": "QuanLyNoiThatHoangGia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\",
+      "BasePath": "_content/QuanLyNoiThatHoangGia",
+      "RelativePath": "user/images/slides/bedroom#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qb45oaeqde",
+      "Integrity": "2now4t6cWq+JZGeBcua8rRcVtjIJ5SWLs2mzJjcVGx4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user\\images\\slides\\bedroom.jpg"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\kitchen.jpg",
+      "SourceId": "QuanLyNoiThatHoangGia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\",
+      "BasePath": "_content/QuanLyNoiThatHoangGia",
+      "RelativePath": "user/images/slides/kitchen#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ng06dyfiwv",
+      "Integrity": "16wpSNj7rAJ5eL59Ac9Q+UX0qDCMIVAmepKn9HfRg1g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user\\images\\slides\\kitchen.jpg"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\living-room.jpg",
+      "SourceId": "QuanLyNoiThatHoangGia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\",
+      "BasePath": "_content/QuanLyNoiThatHoangGia",
+      "RelativePath": "user/images/slides/living-room#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iw0w0otezc",
+      "Integrity": "boP6VK2a4V3v6BjsDq7TNisgfF2zLsyxzEO/sPgHzDE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user\\images\\slides\\living-room.jpg"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\pexels-photo-68389.jpeg",
+      "SourceId": "QuanLyNoiThatHoangGia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\",
+      "BasePath": "_content/QuanLyNoiThatHoangGia",
+      "RelativePath": "user/images/slides/pexels-photo-68389#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4hnm7brbne",
+      "Integrity": "WAPbm9auvNRHgkrlB7zMrtC4rgISmfx+GdLlU3nrel8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user\\images\\slides\\pexels-photo-68389.jpeg"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\ajax-loader.gif",
+      "SourceId": "QuanLyNoiThatHoangGia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\",
+      "BasePath": "_content/QuanLyNoiThatHoangGia",
+      "RelativePath": "user/js/ajax-loader#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fypy1n2a1i",
+      "Integrity": "57RMhrBQ/KdmqW3awtCTKvASbabyMFKANC2QkWjczms=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user\\js\\ajax-loader.gif"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\bootstrap.bundle.min.js",
+      "SourceId": "QuanLyNoiThatHoangGia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\",
+      "BasePath": "_content/QuanLyNoiThatHoangGia",
+      "RelativePath": "user/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lqe157yz2r",
+      "Integrity": "I36DFhv+CYy+/bPtLsadSn8s4Xok98qhTZ8K5dwKgpE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\jquery-1.11.0.min.js",
+      "SourceId": "QuanLyNoiThatHoangGia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\",
+      "BasePath": "_content/QuanLyNoiThatHoangGia",
+      "RelativePath": "user/js/jquery-1.11.0.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vk81rehhpd",
+      "Integrity": "ryQZ3RXgnqkTz+lNEw+YcEhnMuV3ZODwLqOEbyBBRu4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\modernizr.js",
+      "SourceId": "QuanLyNoiThatHoangGia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\",
+      "BasePath": "_content/QuanLyNoiThatHoangGia",
+      "RelativePath": "user/js/modernizr#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7rukwvdrpd",
+      "Integrity": "TZvBLXlO0iGuHL67vrp7JnMFxtyUcEQS5s/qDhVqUjc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user\\js\\modernizr.js"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\plugins.js",
+      "SourceId": "QuanLyNoiThatHoangGia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\",
+      "BasePath": "_content/QuanLyNoiThatHoangGia",
+      "RelativePath": "user/js/plugins#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "twpy9v24y6",
+      "Integrity": "rVy6KBRi6D53fEddYSJ5VCe82qsjCfwXV6yVNWiGaLs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user\\js\\plugins.js"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\script.js",
+      "SourceId": "QuanLyNoiThatHoangGia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\",
+      "BasePath": "_content/QuanLyNoiThatHoangGia",
+      "RelativePath": "user/js/script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5dee03jhon",
+      "Integrity": "x2NhAVFehfKy9FprAFkCs83l7ZaxXxQU4/WyzETceO4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user\\js\\script.js"
+    },
+    {
+      "Identity": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\style.css",
+      "SourceId": "QuanLyNoiThatHoangGia",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\",
+      "BasePath": "_content/QuanLyNoiThatHoangGia",
+      "RelativePath": "user/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yz7dgotidw",
+      "Integrity": "vinlgcrtBqt0LH+1+Q2B/rzTI+1YdrooUkgdlMHNpFE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user\\style.css"
     }
   ],
   "Endpoints": [
     {
-      "Route": "css/adminlte.3ts38b2iul.css",
+      "Route": "css/adminlte.c0i6hjrypi.css",
       "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\adminlte.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4460,7 +4733,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1612231"
+          "Value": "1749290"
         },
         {
           "Name": "Content-Type",
@@ -4468,11 +4741,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"l2glsG6+k2NsLH3sS79rcwaD6Ky4rcVfojatex0QDxs=\""
+          "Value": "\"rK3+dOLZGkpfY6mSufll0DnuCJP5T48H95+JacaSpz4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 02:14:02 GMT"
+          "Value": "Sat, 19 Apr 2025 14:19:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4482,7 +4755,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3ts38b2iul"
+          "Value": "c0i6hjrypi"
         },
         {
           "Name": "label",
@@ -4490,7 +4763,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-l2glsG6+k2NsLH3sS79rcwaD6Ky4rcVfojatex0QDxs="
+          "Value": "sha256-rK3+dOLZGkpfY6mSufll0DnuCJP5T48H95+JacaSpz4="
         }
       ]
     },
@@ -4505,7 +4778,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1612231"
+          "Value": "1749290"
         },
         {
           "Name": "Content-Type",
@@ -4513,11 +4786,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"l2glsG6+k2NsLH3sS79rcwaD6Ky4rcVfojatex0QDxs=\""
+          "Value": "\"rK3+dOLZGkpfY6mSufll0DnuCJP5T48H95+JacaSpz4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 02:14:02 GMT"
+          "Value": "Sat, 19 Apr 2025 14:19:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4527,7 +4800,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-l2glsG6+k2NsLH3sS79rcwaD6Ky4rcVfojatex0QDxs="
+          "Value": "sha256-rK3+dOLZGkpfY6mSufll0DnuCJP5T48H95+JacaSpz4="
         }
       ]
     },
@@ -11776,7 +12049,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Mar 2024 10:15:24 GMT"
+          "Value": "Tue, 15 Apr 2025 08:03:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11821,7 +12094,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Mar 2024 10:15:24 GMT"
+          "Value": "Tue, 15 Apr 2025 08:03:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18910,7 +19183,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 08:56:28 GMT"
+          "Value": "Mon, 21 Apr 2025 07:57:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18955,7 +19228,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 08:56:28 GMT"
+          "Value": "Mon, 21 Apr 2025 07:57:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19000,7 +19273,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 08:56:28 GMT"
+          "Value": "Mon, 21 Apr 2025 07:57:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19037,7 +19310,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 08:56:28 GMT"
+          "Value": "Mon, 21 Apr 2025 07:57:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19048,6 +19321,1072 @@
         {
           "Name": "integrity",
           "Value": "sha256-dBovTC7KLmSmFV22EeDhFs2ZfS8pt3WAr9SiskeaGX4="
+        }
+      ]
+    },
+    {
+      "Route": "user/images/logo/Royal.png",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\logo\\Royal.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z+d83MlG5cwNndtmI+QzFdcYmyvYObsnmQZweIedo5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 02:08:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z+d83MlG5cwNndtmI+QzFdcYmyvYObsnmQZweIedo5M="
+        }
+      ]
+    },
+    {
+      "Route": "user/images/logo/Royal.r7lgcvfjf9.png",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\logo\\Royal.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z+d83MlG5cwNndtmI+QzFdcYmyvYObsnmQZweIedo5M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 02:08:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r7lgcvfjf9"
+        },
+        {
+          "Name": "label",
+          "Value": "user/images/logo/Royal.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z+d83MlG5cwNndtmI+QzFdcYmyvYObsnmQZweIedo5M="
+        }
+      ]
+    },
+    {
+      "Route": "user/images/slides/bathroom.fxvjvllah9.jpg",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\bathroom.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "642696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y+tXXkcbmWNBUQO/iwyhjXuTvi7wAIuVp3vfKNPdkMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:28:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fxvjvllah9"
+        },
+        {
+          "Name": "label",
+          "Value": "user/images/slides/bathroom.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y+tXXkcbmWNBUQO/iwyhjXuTvi7wAIuVp3vfKNPdkMg="
+        }
+      ]
+    },
+    {
+      "Route": "user/images/slides/bathroom.jpg",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\bathroom.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "642696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y+tXXkcbmWNBUQO/iwyhjXuTvi7wAIuVp3vfKNPdkMg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:28:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y+tXXkcbmWNBUQO/iwyhjXuTvi7wAIuVp3vfKNPdkMg="
+        }
+      ]
+    },
+    {
+      "Route": "user/images/slides/bedroom.jpg",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\bedroom.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "651722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2now4t6cWq+JZGeBcua8rRcVtjIJ5SWLs2mzJjcVGx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:51:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2now4t6cWq+JZGeBcua8rRcVtjIJ5SWLs2mzJjcVGx4="
+        }
+      ]
+    },
+    {
+      "Route": "user/images/slides/bedroom.qb45oaeqde.jpg",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\bedroom.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "651722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2now4t6cWq+JZGeBcua8rRcVtjIJ5SWLs2mzJjcVGx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:51:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qb45oaeqde"
+        },
+        {
+          "Name": "label",
+          "Value": "user/images/slides/bedroom.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2now4t6cWq+JZGeBcua8rRcVtjIJ5SWLs2mzJjcVGx4="
+        }
+      ]
+    },
+    {
+      "Route": "user/images/slides/kitchen.jpg",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\kitchen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "353013"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"16wpSNj7rAJ5eL59Ac9Q+UX0qDCMIVAmepKn9HfRg1g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:25:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-16wpSNj7rAJ5eL59Ac9Q+UX0qDCMIVAmepKn9HfRg1g="
+        }
+      ]
+    },
+    {
+      "Route": "user/images/slides/kitchen.ng06dyfiwv.jpg",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\kitchen.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "353013"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"16wpSNj7rAJ5eL59Ac9Q+UX0qDCMIVAmepKn9HfRg1g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:25:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ng06dyfiwv"
+        },
+        {
+          "Name": "label",
+          "Value": "user/images/slides/kitchen.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-16wpSNj7rAJ5eL59Ac9Q+UX0qDCMIVAmepKn9HfRg1g="
+        }
+      ]
+    },
+    {
+      "Route": "user/images/slides/living-room.iw0w0otezc.jpg",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\living-room.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "313187"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"boP6VK2a4V3v6BjsDq7TNisgfF2zLsyxzEO/sPgHzDE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:05:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iw0w0otezc"
+        },
+        {
+          "Name": "label",
+          "Value": "user/images/slides/living-room.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-boP6VK2a4V3v6BjsDq7TNisgfF2zLsyxzEO/sPgHzDE="
+        }
+      ]
+    },
+    {
+      "Route": "user/images/slides/living-room.jpg",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\living-room.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "313187"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"boP6VK2a4V3v6BjsDq7TNisgfF2zLsyxzEO/sPgHzDE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 07:05:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-boP6VK2a4V3v6BjsDq7TNisgfF2zLsyxzEO/sPgHzDE="
+        }
+      ]
+    },
+    {
+      "Route": "user/images/slides/pexels-photo-68389.4hnm7brbne.jpeg",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\pexels-photo-68389.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2236312"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WAPbm9auvNRHgkrlB7zMrtC4rgISmfx+GdLlU3nrel8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 03:52:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4hnm7brbne"
+        },
+        {
+          "Name": "label",
+          "Value": "user/images/slides/pexels-photo-68389.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WAPbm9auvNRHgkrlB7zMrtC4rgISmfx+GdLlU3nrel8="
+        }
+      ]
+    },
+    {
+      "Route": "user/images/slides/pexels-photo-68389.jpeg",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\pexels-photo-68389.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2236312"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WAPbm9auvNRHgkrlB7zMrtC4rgISmfx+GdLlU3nrel8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 03:52:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WAPbm9auvNRHgkrlB7zMrtC4rgISmfx+GdLlU3nrel8="
+        }
+      ]
+    },
+    {
+      "Route": "user/js/ajax-loader.fypy1n2a1i.gif",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\ajax-loader.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"57RMhrBQ/KdmqW3awtCTKvASbabyMFKANC2QkWjczms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jul 2023 05:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fypy1n2a1i"
+        },
+        {
+          "Name": "label",
+          "Value": "user/js/ajax-loader.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-57RMhrBQ/KdmqW3awtCTKvASbabyMFKANC2QkWjczms="
+        }
+      ]
+    },
+    {
+      "Route": "user/js/ajax-loader.gif",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\ajax-loader.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"57RMhrBQ/KdmqW3awtCTKvASbabyMFKANC2QkWjczms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jul 2023 05:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-57RMhrBQ/KdmqW3awtCTKvASbabyMFKANC2QkWjczms="
+        }
+      ]
+    },
+    {
+      "Route": "user/js/bootstrap.bundle.min.js",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\bootstrap.bundle.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I36DFhv+CYy+/bPtLsadSn8s4Xok98qhTZ8K5dwKgpE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jul 2023 05:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I36DFhv+CYy+/bPtLsadSn8s4Xok98qhTZ8K5dwKgpE="
+        }
+      ]
+    },
+    {
+      "Route": "user/js/bootstrap.bundle.min.lqe157yz2r.js",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\bootstrap.bundle.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78135"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I36DFhv+CYy+/bPtLsadSn8s4Xok98qhTZ8K5dwKgpE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jul 2023 05:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lqe157yz2r"
+        },
+        {
+          "Name": "label",
+          "Value": "user/js/bootstrap.bundle.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I36DFhv+CYy+/bPtLsadSn8s4Xok98qhTZ8K5dwKgpE="
+        }
+      ]
+    },
+    {
+      "Route": "user/js/jquery-1.11.0.min.js",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\jquery-1.11.0.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96383"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ryQZ3RXgnqkTz+lNEw+YcEhnMuV3ZODwLqOEbyBBRu4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jul 2023 05:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ryQZ3RXgnqkTz+lNEw+YcEhnMuV3ZODwLqOEbyBBRu4="
+        }
+      ]
+    },
+    {
+      "Route": "user/js/jquery-1.11.0.min.vk81rehhpd.js",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\jquery-1.11.0.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96383"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ryQZ3RXgnqkTz+lNEw+YcEhnMuV3ZODwLqOEbyBBRu4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jul 2023 05:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vk81rehhpd"
+        },
+        {
+          "Name": "label",
+          "Value": "user/js/jquery-1.11.0.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ryQZ3RXgnqkTz+lNEw+YcEhnMuV3ZODwLqOEbyBBRu4="
+        }
+      ]
+    },
+    {
+      "Route": "user/js/modernizr.7rukwvdrpd.js",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\modernizr.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TZvBLXlO0iGuHL67vrp7JnMFxtyUcEQS5s/qDhVqUjc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jul 2023 05:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7rukwvdrpd"
+        },
+        {
+          "Name": "label",
+          "Value": "user/js/modernizr.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TZvBLXlO0iGuHL67vrp7JnMFxtyUcEQS5s/qDhVqUjc="
+        }
+      ]
+    },
+    {
+      "Route": "user/js/modernizr.js",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\modernizr.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TZvBLXlO0iGuHL67vrp7JnMFxtyUcEQS5s/qDhVqUjc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jul 2023 05:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TZvBLXlO0iGuHL67vrp7JnMFxtyUcEQS5s/qDhVqUjc="
+        }
+      ]
+    },
+    {
+      "Route": "user/js/plugins.js",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\plugins.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rVy6KBRi6D53fEddYSJ5VCe82qsjCfwXV6yVNWiGaLs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jul 2023 05:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rVy6KBRi6D53fEddYSJ5VCe82qsjCfwXV6yVNWiGaLs="
+        }
+      ]
+    },
+    {
+      "Route": "user/js/plugins.twpy9v24y6.js",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\plugins.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rVy6KBRi6D53fEddYSJ5VCe82qsjCfwXV6yVNWiGaLs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jul 2023 05:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "twpy9v24y6"
+        },
+        {
+          "Name": "label",
+          "Value": "user/js/plugins.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rVy6KBRi6D53fEddYSJ5VCe82qsjCfwXV6yVNWiGaLs="
+        }
+      ]
+    },
+    {
+      "Route": "user/js/script.5dee03jhon.js",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x2NhAVFehfKy9FprAFkCs83l7ZaxXxQU4/WyzETceO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jul 2023 05:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5dee03jhon"
+        },
+        {
+          "Name": "label",
+          "Value": "user/js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x2NhAVFehfKy9FprAFkCs83l7ZaxXxQU4/WyzETceO4="
+        }
+      ]
+    },
+    {
+      "Route": "user/js/script.js",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x2NhAVFehfKy9FprAFkCs83l7ZaxXxQU4/WyzETceO4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Jul 2023 05:15:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x2NhAVFehfKy9FprAFkCs83l7ZaxXxQU4/WyzETceO4="
+        }
+      ]
+    },
+    {
+      "Route": "user/style.css",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vinlgcrtBqt0LH+1+Q2B/rzTI+1YdrooUkgdlMHNpFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:58:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vinlgcrtBqt0LH+1+Q2B/rzTI+1YdrooUkgdlMHNpFE="
+        }
+      ]
+    },
+    {
+      "Route": "user/style.yz7dgotidw.css",
+      "AssetFile": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vinlgcrtBqt0LH+1+Q2B/rzTI+1YdrooUkgdlMHNpFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 09:58:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yz7dgotidw"
+        },
+        {
+          "Name": "label",
+          "Value": "user/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vinlgcrtBqt0LH+1+Q2B/rzTI+1YdrooUkgdlMHNpFE="
         }
       ]
     }

@@ -10,7 +10,7 @@ namespace QLNT_API.Mapper
             return new RoleDTO
             {
                 Id = role.Id,
-                Name = role.Name
+                Name = role.Name              
             };
         }
 

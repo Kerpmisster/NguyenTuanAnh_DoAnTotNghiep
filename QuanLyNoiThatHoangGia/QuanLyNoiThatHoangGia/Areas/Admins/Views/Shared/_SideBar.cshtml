@@ -21,6 +21,15 @@
     var isContactsActive = currentUrl.StartsWithSegments("/admins/contacts");
 }
 
+<style>
+    .main-sidebar{
+        overflow: hidden;
+    }
+    .sidebar-dark{
+
+    }
+</style>
+
 <aside class="main-sidebar sidebar-dark-primary shadow">
     <a href="~/admins" class="brand-link">
         <img src="~/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
@@ -60,14 +69,6 @@
                     </a>                
                 </li>
                 <li class="nav-item">
-                    <a href="~/admins/categories" class="nav-link @((isCategoriesActive ? "active" : ""))">
-                        <i class="nav-icon fas fa-list"></i>
-                        <p>
-                            Quản lý danh mục
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
                     <a href="~/admins/orders" class="nav-link @((isOrdersActive ? "active" : ""))">
                         <i class="nav-icon fas fa-list"></i>
                         <p>
@@ -76,18 +77,10 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="~/admins/banners" class="nav-link @((isBannersActive ? "active" : ""))">
-                        <i class="nav-icon fas fa-circle"></i>
-                        <p>
-                            Quản lý Banner
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
                     <a href="~/admins/news" class="nav-link @((isNewsActive ? "active" : ""))">
                         <i class="nav-icon fas fa-file-signature"></i>
                         <p>
-                            Danh mục tin tức
+                            Quản lý tin tức
                         </p>
                     </a>
                 </li>
@@ -120,25 +113,26 @@
                         <li class="nav-item">
                             <a href="~/admins/products" class="nav-link @((isProductActive ? "active" : ""))">
                                 <i class="far fa-circle nav-icon"></i>
+                                <p>Danh mục sản phẩm</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="~/admins/products" class="nav-link @((isProductActive ? "active" : ""))">
+                                <i class="far fa-circle nav-icon"></i>
                                 <p>Danh sách sản phẩm</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="~/admins/extensions" class="nav-link @((isExtensionsActive ? "active" : ""))">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Danh sách mở rộng sản phẩm</p>
+                                <p>Phụ kiện</p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="~/admins/productimages" class="nav-link @((isProductImagesActive ? "active" : ""))">
-                                <i class="far fa-circle nav-icon"></i>
-                                <p>Danh sách ảnh sản phẩm</p>
-                            </a>
-                        </li>
+                        
                         <li class="nav-item">
                             <a href="~/admins/materials" class="nav-link @((isMaterialsActive ? "active" : ""))">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Danh sách chất liệu sản phẩm</p>
+                                <p>Chất liệu</p>
                             </a>
                         </li>
                     </ul>

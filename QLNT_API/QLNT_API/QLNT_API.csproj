@@ -25,16 +25,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DTO\Extension\" />
-    <Folder Include="DTO\Material\" />
-    <Folder Include="DTO\Banner\" />
     <Folder Include="DTO\Contact\" />
     <Folder Include="DTO\OrderDetail\" />
     <Folder Include="DTO\News\" />
-    <Folder Include="DTO\Slide\" />
-    <Folder Include="Services\BannerServices\" />
     <Folder Include="Services\ContactServices\" />
     <Folder Include="wwwroot\Images\Category\" />
+    <Folder Include="wwwroot\Images\Product\" />
   </ItemGroup>
 
 </Project>

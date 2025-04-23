@@ -16,6 +16,13 @@ namespace QLNT_API.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
+        [HttpGet("search")]
+        public async Task<IActionResult> Search([FromQuery] string keyword)
+        {
+            var results = await _categoryService.SearchAsync(keyword);
+            return Ok(results);
+        }
+
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {

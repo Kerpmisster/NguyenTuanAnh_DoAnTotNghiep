@@ -7,23 +7,13 @@ public partial class Introduction
 {
     public int Id { get; set; }
 
-    public string Title { get; set; } = null!;
+    public string? Title { get; set; }
 
-    public string Image { get; set; } = null!;
-
-    public int? Orders { get; set; }
+    public string? Image { get; set; }
 
     public string? Description { get; set; }
 
-    public byte? Home { get; set; }
-
-    public byte? Type { get; set; }
-
-    public int? Parentid { get; set; }
-
     public string? MetaTitle { get; set; }
-
-    public string? MetaKeyword { get; set; }
 
     public string? MetaDescription { get; set; }
 
@@ -33,9 +23,7 @@ public partial class Introduction
 
     public DateTime? UpdatedDate { get; set; }
 
-    public string? Content { get; set; }
+    public byte? Status { get; set; }
 
-    public byte Status { get; set; }
-
-    public bool Isdelete { get; set; }
+    public bool? Isdelete { get; set; }
 }

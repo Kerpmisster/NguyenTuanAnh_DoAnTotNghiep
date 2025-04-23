@@ -32,9 +32,10 @@ public class Program
         builder.Services.AddHttpContextAccessor();
         builder.Services.AddSession(options =>
         {
-            options.IdleTimeout = TimeSpan.FromSeconds(60);
+            options.IdleTimeout = TimeSpan.FromHours(1);
             options.Cookie.HttpOnly = true;
             options.Cookie.IsEssential = true;
+            options.Cookie.SameSite = SameSiteMode.Lax;
             options.Cookie.Name = "NoiThatHoangGia";
         });
         // Cấu hình Authentication với Cookie
@@ -46,6 +47,8 @@ public class Program
                 options.Cookie.Name = "NoiThatHoangGia"; // Tùy chỉnh tên cookie nếu muốn
                 options.ExpireTimeSpan = TimeSpan.FromHours(1); // Thời gian hết hạn của cookie
                 options.SlidingExpiration = true; // Tự động gia hạn khi người dùng hoạt động
+                options.Cookie.SameSite = SameSiteMode.Lax;
+                options.Cookie.HttpOnly = true;
             })
             /*.AddCookie()*/;
 
@@ -71,16 +74,26 @@ public class Program
         app.UseMiddleware<AdminJwtMiddleware>();
 
         app.UseRouting();
+
         app.UseAuthentication();
         app.UseAuthorization();
+
+        app.MapControllerRoute(
+            name: "default-root", // Khi truy cập /
+            pattern: "",
+            defaults: new { area = "User", controller = "Home", action = "Index" });
+
+        //app.MapControllerRoute(
+        //    name: "user",
+        //    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}",
+        //    defaults: new { area = "Users", controller = "Home", action = "Index" }
+        //);
 
         app.MapControllerRoute(
             name: "admins",
             pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}");
 
-        app.MapControllerRoute(
-            name: "default",
-            pattern: "{controller=Home}/{action=Index}/{id?}");
+
         app.MapRazorPages();
 
         app.Run();

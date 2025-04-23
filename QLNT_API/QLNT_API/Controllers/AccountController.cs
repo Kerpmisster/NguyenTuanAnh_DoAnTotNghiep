@@ -18,6 +18,13 @@ namespace QLNT_API.Controllers
             _userService = userService;
         }
 
+        [HttpGet("paged")]
+        public async Task<IActionResult> GetPaged(int page = 1, int pageSize = 10)
+        {
+            var result = await _userService.GetPagedAsync(page, pageSize);
+            return Ok(result);
+        }
+
         // Hiển thị danh sách tài khoản
         [HttpGet]
         [Authorize(Roles = "admin")]
@@ -25,6 +32,16 @@ namespace QLNT_API.Controllers
         {
             var users = await _userService.GetAllUsersAsync();
             return Ok(users);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(string id)
+        {
+            var category = await _userService.GetById(id);
+            if (category == null)
+                return NotFound();
+
+            return Ok(category);
         }
 
         // Đăng ký tài khoản
@@ -56,6 +73,20 @@ namespace QLNT_API.Controllers
         {
             var user = await _userService.UpdateUserAsync(id, updateUserDto);
             return Ok(user);
+        }
+
+        [HttpPut("{id}/roles")]
+        public async Task<IActionResult> AssignRoles(string id, [FromBody] List<string> roles)
+        {
+            try
+            {
+                await _userService.AssignRolesToUserAsync(id, roles);
+                return Ok(new { message = "Gán quyền thành công." });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
 
         // Thêm endpoint đổi mật khẩu

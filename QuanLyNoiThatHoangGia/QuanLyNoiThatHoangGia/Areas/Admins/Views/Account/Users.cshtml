@@ -10,7 +10,6 @@
         <tr>
             <th>Số thứ tự</th>
             <th>Tên tài khoản</th>
-            <th>Email</th>
             <th>Quyền</th>
         </tr>
     </thead>
@@ -22,8 +21,11 @@
         {
             <tr>
                 <td>@stt</td>
-                <td>@user.UserName</td>
-                <td>@user.Email</td>
+                <td>
+                    <a href="javascript:void(0);" class="text-primary" onclick="showUserDetail('@user.Id')">
+                        @user.UserName
+                    </a>
+                </td>
                 <td>@user.DisplayRole</td>
             </tr>
             stt++;
@@ -31,3 +33,39 @@
     </tbody>
 </table>
 
+<!-- Modal -->
+<div class="modal fade" id="userDetailModal" tabindex="-1" role="dialog" aria-labelledby="userDetailModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="userDetailModalLabel">Chi tiết người dùng</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+            </div>
+            <div class="modal-body" id="modalUserDetailContent">
+                <div class="text-center">Đang tải dữ liệu...</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function showUserDetail(userId) {
+            $('#modalUserDetailContent').html('<div class="text-center">Đang tải dữ liệu...</div>');
+            $('#userDetailModal').modal('show');
+
+            $.ajax({
+                url: '/Admins/Account/Detail/' + userId,
+                type: 'GET',
+                success: function (html) {
+                    $('#modalUserDetailContent').html(html);
+                },
+                error: function (xhr, status, error) {
+                    console.error("Lỗi AJAX:", status, error, xhr.responseText);
+                    $('#modalUserDetailContent').html(`<div class="text-danger">Lỗi: ${xhr.status} - ${xhr.responseText}</div>`
+                    );
+                }
+            });
+        }
+    </script>
+}

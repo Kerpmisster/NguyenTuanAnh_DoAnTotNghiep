@@ -7,21 +7,13 @@ public partial class News
 {
     public int Id { get; set; }
 
-    public string? Code { get; set; }
-
     public string? Title { get; set; }
 
     public string? Description { get; set; }
 
-    public string? Content { get; set; }
-
     public string? Image { get; set; }
 
     public string? MetaTitle { get; set; }
-
-    public string? MainKeyword { get; set; }
-
-    public string? MetaKeyword { get; set; }
 
     public string? MetaDescription { get; set; }
 
@@ -30,8 +22,6 @@ public partial class News
     public int? Views { get; set; }
 
     public int? Likes { get; set; }
-
-    public double? Star { get; set; }
 
     public DateTime? CreatedDate { get; set; }
 

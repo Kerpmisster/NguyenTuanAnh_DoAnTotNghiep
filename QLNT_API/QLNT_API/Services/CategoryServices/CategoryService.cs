@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using QLNT_API.Data;
 using QLNT_API.DTO.Category;
+using QLNT_API.DTO.Product;
 using QLNT_API.Mapper;
 using QLNT_API.Models;
 
@@ -44,9 +45,8 @@ namespace QLNT_API.Services.CategoryServices
         public async Task<List<CategoryDTO>> GetAllAsync()
         {
             var categories = await _context.Categories
-                .Where(c => c.Isdelete == false || c.Isdelete == null)
-                .Include(c => c.Products)
-                .Include(c => c.InverseParent)
+                .Where(c => c.Isdelete == false && c.Parentid == null)
+                .Include(c => c.InverseParent).ThenInclude(c => c.Products)
                 .ToListAsync();
 
             return categories.Select(CategoryMapper.ToDTO).ToList();
@@ -108,5 +108,46 @@ namespace QLNT_API.Services.CategoryServices
             return true;
         }
 
+        public async Task<bool> CategoryExists(int id)
+        {
+            return await _context.Categories.AnyAsync(c => c.Id == id);
+        }
+
+        public async Task<List<CategoryDTO>> SearchAsync(string keyword)
+        {
+            if (string.IsNullOrWhiteSpace(keyword))
+                return new List<CategoryDTO>();
+
+            keyword = keyword.ToLower();
+
+            var categories = await _context.Categories
+                .Where(c =>
+                    c.Title.ToLower().Contains(keyword) ||
+                    c.Slug.ToLower().Contains(keyword) ||
+                    c.MetaTitle.ToLower().Contains(keyword)
+                )
+                .Where(c => c.Isdelete == false)
+                .ToListAsync();
+
+            var result = categories.Select(c => new CategoryDTO
+            {
+                Id = c.Id,
+                Title = c.Title,
+                Icon = c.Icon,
+                MetaTitle = c.MetaTitle,
+                MetaKeyword = c.MetaKeyword,
+                MetaDescription = c.MetaDescription,
+                Slug = c.Slug,
+                Orders = c.Orders,
+                ParentId = c.Parentid,
+                Status = c.Status,
+                CreatedDate = c.CreatedDate,
+                UpdatedDate = c.UpdatedDate,
+                Children = new List<CategoryDTO>(), // Gán rỗng để tránh lồng vào
+                Products = new List<ProductDTO>()    // Gán rỗng nếu chưa cần
+            }).ToList();
+
+            return result;
+        }
     }
 }

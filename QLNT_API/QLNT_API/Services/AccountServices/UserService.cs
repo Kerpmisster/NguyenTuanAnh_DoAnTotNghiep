@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using QLNT_API.DTO.Account;
+using QLNT_API.DTO.Extension;
 using QLNT_API.Helper;
 using QLNT_API.Mapper;
 using QLNT_API.Models;
@@ -40,6 +41,21 @@ namespace QLNT_API.Services.AccountServices
                 userDtos.Add(UserMapper.ToUserDto(user, roles, customer));
             }
             return userDtos;
+        }
+
+        public async Task<UserDTO?> GetById(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+            {
+                return null;
+            }
+
+            var roles = await _userManager.GetRolesAsync(user);
+            var customer = await _context.Customers
+                .FirstOrDefaultAsync(c => c.UserId == user.Id);
+
+            return UserMapper.ToUserDto(user, roles, customer);
         }
 
         public async Task<UserDTO> RegisterAsync(RegisterDTO registerDto)
@@ -143,8 +159,8 @@ namespace QLNT_API.Services.AccountServices
             }
 
             // Cập nhật thông tin cơ bản
-            user.UserName = updateUserDto.UserName;
-            user.Email = updateUserDto.Email;
+            user.UserName = string.IsNullOrWhiteSpace(updateUserDto.UserName) ? user.UserName : updateUserDto.UserName;
+            user.Email = string.IsNullOrWhiteSpace(updateUserDto.Email) ? user.Email : updateUserDto.Email;
             var updateResult = await _userManager.UpdateAsync(user);
             if (!updateResult.Succeeded)
             {
@@ -155,9 +171,9 @@ namespace QLNT_API.Services.AccountServices
             if (customer != null)
             {
                 // Nếu đã có, thì cập nhật
-                customer.Fullname = updateUserDto.Fullname;
-                customer.Address = updateUserDto.Address;
-                customer.Avatar = updateUserDto.Avatar;
+                customer.Fullname = string.IsNullOrWhiteSpace(updateUserDto.Fullname) ? customer.Fullname : updateUserDto.Fullname;
+                customer.Address = string.IsNullOrWhiteSpace(updateUserDto.Address) ? customer.Address : updateUserDto.Address;
+                customer.Avatar = string.IsNullOrWhiteSpace(updateUserDto.Avatar) ? customer.Avatar : updateUserDto.Avatar;
                 customer.UpdateDate = DateTime.Now;
                 customer.Isactive = updateUserDto.IsActive ? (byte)1 : (byte)0;
 
@@ -169,9 +185,9 @@ namespace QLNT_API.Services.AccountServices
                 customer = new Customer
                 {
                     UserId = user.Id,
-                    Fullname = updateUserDto.Fullname,
-                    Address = updateUserDto.Address,
-                    Avatar = updateUserDto.Avatar,
+                    Fullname = updateUserDto.Fullname ?? "",
+                    Address = updateUserDto.Address ?? "",
+                    Avatar = updateUserDto.Avatar ?? "",
                     CreatedDate = DateTime.Now,
                     Isactive = updateUserDto.IsActive ? (byte)1 : (byte)0,
                     Isdelete = 0
@@ -183,25 +199,25 @@ namespace QLNT_API.Services.AccountServices
             await _context.SaveChangesAsync();
 
             // Xóa tất cả quyền hiện tại và gán lại quyền mới
-            if (updateUserDto.Roles != null && updateUserDto.Roles.Any())
-            {
-                var currentRoles = await _userManager.GetRolesAsync(user);
+            //if (updateUserDto.Roles != null && updateUserDto.Roles.Any())
+            //{
+            //    var currentRoles = await _userManager.GetRolesAsync(user);
 
-                // So sánh danh sách roles cũ và mới (dạng chữ thường để tránh phân biệt hoa thường)
-                var currentRolesNormalized = currentRoles.Select(r => r.ToLower()).OrderBy(r => r);
-                var newRolesNormalized = updateUserDto.Roles.Select(r => r.ToLower()).OrderBy(r => r);
+            //    // So sánh danh sách roles cũ và mới (dạng chữ thường để tránh phân biệt hoa thường)
+            //    var currentRolesNormalized = currentRoles.Select(r => r.ToLower()).OrderBy(r => r);
+            //    var newRolesNormalized = updateUserDto.Roles.Select(r => r.ToLower()).OrderBy(r => r);
 
-                // Nếu roles khác thì mới cập nhật
-                if (!currentRolesNormalized.SequenceEqual(newRolesNormalized))
-                {
-                    await _userManager.RemoveFromRolesAsync(user, currentRoles);
-                    var addRolesResult = await _userManager.AddToRolesAsync(user, updateUserDto.Roles);
-                    if (!addRolesResult.Succeeded)
-                    {
-                        throw new Exception("Gán quyền thất bại: " + string.Join(", ", addRolesResult.Errors.Select(e => e.Description)));
-                    }
-                }
-            }
+            //    // Nếu roles khác thì mới cập nhật
+            //    if (!currentRolesNormalized.SequenceEqual(newRolesNormalized))
+            //    {
+            //        await _userManager.RemoveFromRolesAsync(user, currentRoles);
+            //        var addRolesResult = await _userManager.AddToRolesAsync(user, updateUserDto.Roles);
+            //        if (!addRolesResult.Succeeded)
+            //        {
+            //            throw new Exception("Gán quyền thất bại: " + string.Join(", ", addRolesResult.Errors.Select(e => e.Description)));
+            //        }
+            //    }
+            //}
 
             // Lấy lại danh sách quyền sau khi cập nhật
             var updatedRoles = await _userManager.GetRolesAsync(user);
@@ -256,6 +272,71 @@ namespace QLNT_API.Services.AccountServices
 
             return true;
         }
+
+        public async Task<bool> UserExists(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            return user != null;
+        }
+
+        public async Task AssignRolesToUserAsync(string userId, List<string>? roles)
+        {
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                throw new Exception("Không tìm thấy tài khoản.");
+            }
+
+            if (roles == null || !roles.Any())
+            {
+                // Không gán quyền nếu không truyền gì cả (giữ nguyên quyền cũ)
+                return;
+            }
+
+            var currentRoles = await _userManager.GetRolesAsync(user);
+
+            var currentNormalized = currentRoles.Select(r => r.ToLower()).OrderBy(r => r);
+            var newNormalized = roles.Select(r => r.ToLower()).OrderBy(r => r);
+
+            if (!currentNormalized.SequenceEqual(newNormalized))
+            {
+                var removeResult = await _userManager.RemoveFromRolesAsync(user, currentRoles);
+                if (!removeResult.Succeeded)
+                {
+                    throw new Exception("Xóa quyền cũ thất bại: " + string.Join(", ", removeResult.Errors.Select(e => e.Description)));
+                }
+
+                var addResult = await _userManager.AddToRolesAsync(user, roles);
+                if (!addResult.Succeeded)
+                {
+                    throw new Exception("Gán quyền mới thất bại: " + string.Join(", ", addResult.Errors.Select(e => e.Description)));
+                }
+            }
+        }
+
+        public async Task<PagedResult<UserDTO>> GetPagedAsync(int page, int pageSize)
+        {
+            var query = _userManager.Users.AsQueryable();
+
+            var pagedResult = await query.ToPagedResultAsync(page, pageSize);
+
+            var userDTOs = pagedResult.Items.Select(user => new UserDTO
+            {
+                Id = user.Id,
+                UserName = user.UserName,
+                Email = user.Email
+                // Bạn có thể thêm các trường khác nếu cần
+            }).ToList();
+
+            return new PagedResult<UserDTO>
+            {
+                Items = userDTOs,
+                TotalItems = pagedResult.TotalItems,
+                PageNumber = page,
+                PageSize = pageSize
+            };
+        }
+
 
         /// <summary>
         /// 

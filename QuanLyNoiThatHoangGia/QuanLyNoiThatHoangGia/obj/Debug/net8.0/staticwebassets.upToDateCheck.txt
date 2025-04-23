@@ -147,3 +147,16 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\user\images\logo\Royal.png
+wwwroot\user\images\slides\bathroom.jpg
+wwwroot\user\images\slides\bedroom.jpg
+wwwroot\user\images\slides\kitchen.jpg
+wwwroot\user\images\slides\living-room.jpg
+wwwroot\user\images\slides\pexels-photo-68389.jpeg
+wwwroot\user\js\ajax-loader.gif
+wwwroot\user\js\bootstrap.bundle.min.js
+wwwroot\user\js\jquery-1.11.0.min.js
+wwwroot\user\js\modernizr.js
+wwwroot\user\js\plugins.js
+wwwroot\user\js\script.js
+wwwroot\user\style.css

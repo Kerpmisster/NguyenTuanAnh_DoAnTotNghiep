@@ -45,5 +45,9 @@ public partial class AspNetUser
 
     public virtual ICollection<EmailConfirmation> EmailConfirmations { get; set; } = new List<EmailConfirmation>();
 
+    public virtual ICollection<ExportReceipt> ExportReceipts { get; set; } = new List<ExportReceipt>();
+
+    public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
+
     public virtual ICollection<AspNetRole> Roles { get; set; } = new List<AspNetRole>();
 }

@@ -42,14 +42,15 @@ namespace QLNT_API.Mapper
 
         public static async Task UpdateEntityAsync(Category entity, UpdateCategoryDTO dto, string wwwRootPath)
         {
-            entity.Title = dto.Title;
-            entity.MetaTitle = dto.MetaTitle;
-            entity.MetaKeyword = dto.MetaKeyword;
-            entity.MetaDescription = dto.MetaDescription;
-            entity.Slug = dto.Slug;
-            entity.Orders = dto.Orders;
-            entity.Parentid = dto.ParentId;
-            entity.Status = dto.Status;
+            if (dto.Title != null) entity.Title = dto.Title;
+            if (dto.MetaTitle != null) entity.MetaTitle = dto.MetaTitle;
+            if (dto.MetaKeyword != null) entity.MetaKeyword = dto.MetaKeyword;
+            if (dto.MetaDescription != null) entity.MetaDescription = dto.MetaDescription;
+            if (dto.Slug != null) entity.Slug = dto.Slug;
+            if (dto.Orders.HasValue) entity.Orders = dto.Orders.Value;
+            if (dto.ParentId.HasValue) entity.Parentid = dto.ParentId.Value;
+            if (dto.Status.HasValue) entity.Status = dto.Status.Value;
+
             entity.UpdatedDate = DateTime.Now;
 
             if (dto.Icon != null)
@@ -84,12 +85,7 @@ namespace QLNT_API.Mapper
                 CreatedDate = entity.CreatedDate,
                 UpdatedDate = entity.UpdatedDate,
                 Children = entity.InverseParent?.Select(ToDTO).ToList() ?? new List<CategoryDTO>(),
-                Products = entity.Products.Select(p => new ProductDTO
-                {
-                    Id = p.Id,
-                    Title = p.Title,
-                    Image = p.Image
-                }).ToList()
+                Products = entity.Products?.Select(p => ProductMapper.ToProductDTO(p)).ToList() ?? new List<ProductDTO>()
             };
         }
     }

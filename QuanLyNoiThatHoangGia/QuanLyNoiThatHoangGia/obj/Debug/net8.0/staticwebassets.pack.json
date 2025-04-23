@@ -601,6 +601,58 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\logo\\Royal.png",
+      "PackagePath": "staticwebassets\\user\\images\\logo\\Royal.png"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\bathroom.jpg",
+      "PackagePath": "staticwebassets\\user\\images\\slides\\bathroom.jpg"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\bedroom.jpg",
+      "PackagePath": "staticwebassets\\user\\images\\slides\\bedroom.jpg"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\kitchen.jpg",
+      "PackagePath": "staticwebassets\\user\\images\\slides\\kitchen.jpg"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\living-room.jpg",
+      "PackagePath": "staticwebassets\\user\\images\\slides\\living-room.jpg"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\images\\slides\\pexels-photo-68389.jpeg",
+      "PackagePath": "staticwebassets\\user\\images\\slides\\pexels-photo-68389.jpeg"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\user\\js\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\user\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\user\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\user\\js\\modernizr.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\user\\js\\plugins.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\js\\script.js",
+      "PackagePath": "staticwebassets\\user\\js\\script.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\user\\style.css",
+      "PackagePath": "staticwebassets\\user\\style.css"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QuanLyNoiThatHoangGia.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

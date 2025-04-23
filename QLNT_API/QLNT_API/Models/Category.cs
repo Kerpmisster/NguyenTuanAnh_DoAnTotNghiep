@@ -31,8 +31,6 @@ public partial class Category
 
     public bool? Isdelete { get; set; }
 
-    public virtual ICollection<CategoryChild> CategoryChildren { get; set; } = new List<CategoryChild>();
-
     public virtual ICollection<Category> InverseParent { get; set; } = new List<Category>();
 
     public virtual Category? Parent { get; set; }

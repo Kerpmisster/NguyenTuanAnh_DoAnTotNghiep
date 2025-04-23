@@ -11,8 +11,6 @@ public partial class ProductExtension
 
     public int? Eid { get; set; }
 
-    public string? Content { get; set; }
-
     public virtual Extension? EidNavigation { get; set; }
 
     public virtual Product? PidNavigation { get; set; }

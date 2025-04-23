@@ -23,7 +23,5 @@ public partial class Customer
 
     public byte? Isactive { get; set; }
 
-    public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
-
     public virtual AspNetUser? User { get; set; }
 }

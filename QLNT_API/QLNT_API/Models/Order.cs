@@ -5,19 +5,15 @@ namespace QLNT_API.Models;
 
 public partial class Order
 {
-    public long Id { get; set; }
-
-    public long? IdOrders { get; set; }
-
-    public long? IdCustomer { get; set; }
-
-    public long? IdPayment { get; set; }
+    public int Id { get; set; }
 
     public DateTime? OrdersDate { get; set; }
 
-    public decimal? TotalMoney { get; set; }
+    public string? UserId { get; set; }
 
-    public string? Notes { get; set; }
+    public int? Idpayment { get; set; }
+
+    public decimal? TotalMoney { get; set; }
 
     public string? NameReciver { get; set; }
 
@@ -29,9 +25,7 @@ public partial class Order
 
     public byte? Isdelete { get; set; }
 
-    public byte? Isactive { get; set; }
+    public virtual ICollection<Orderdetail> Orderdetails { get; set; } = new List<Orderdetail>();
 
-    public virtual Customer? IdCustomerNavigation { get; set; }
-
-    public virtual Orderdetail? IdOrdersNavigation { get; set; }
+    public virtual AspNetUser? User { get; set; }
 }

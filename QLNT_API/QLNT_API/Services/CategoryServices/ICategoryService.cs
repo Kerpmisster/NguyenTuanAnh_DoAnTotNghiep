@@ -7,7 +7,9 @@ namespace QLNT_API.Services.CategoryServices
         Task<CategoryDTO> CreateAsync(CreateCategoryDTO dto, string wwwRootPath);
         Task UpdateAsync(int id, UpdateCategoryDTO dto, string wwwRootPath);
         Task<CategoryDTO?> GetByIdAsync(int id);
+        Task<List<CategoryDTO>> SearchAsync(string keyword);
         Task<List<CategoryDTO>> GetAllAsync();
+        Task<bool> CategoryExists(int id);
         Task<CategoryDTO> AddChildCategoryAsync(int parentId, CreateCategoryDTO dto, string wwwRootPath);
         Task<bool> DeleteAsync(int id);
         Task<bool> ForceDeleteAsync(int id); // nếu bạn thêm xóa thật luôn
