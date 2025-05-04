@@ -78,6 +78,9 @@ public class Program
         app.UseAuthentication();
         app.UseAuthorization();
 
+      
+
+
         app.MapControllerRoute(
             name: "default-root", // Khi truy cập /
             pattern: "",

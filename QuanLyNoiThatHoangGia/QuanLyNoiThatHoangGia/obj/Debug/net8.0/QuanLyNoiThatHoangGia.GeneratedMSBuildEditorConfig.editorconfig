@@ -52,8 +52,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXEFjY291bnRcX1VzZXJEZXRhaWxQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DEV2409GH-T2356/NguyenTuanAnh_DoAnTN/NguyenTuanAnh_DoAnTotNghiep/QuanLyNoiThatHoangGia/QuanLyNoiThatHoangGia/Areas/Admins/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXENhdGVnb3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DEV2409GH-T2356/NguyenTuanAnh_DoAnTN/NguyenTuanAnh_DoAnTotNghiep/QuanLyNoiThatHoangGia/QuanLyNoiThatHoangGia/Areas/Admins/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXERhc2hib2FyZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEV2409GH-T2356/NguyenTuanAnh_DoAnTN/NguyenTuanAnh_DoAnTotNghiep/QuanLyNoiThatHoangGia/QuanLyNoiThatHoangGia/Areas/Admins/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFJvbGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEV2409GH-T2356/NguyenTuanAnh_DoAnTN/NguyenTuanAnh_DoAnTotNghiep/QuanLyNoiThatHoangGia/QuanLyNoiThatHoangGia/Areas/Admins/Views/Role/_CreateRolePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFJvbGVcX0NyZWF0ZVJvbGVQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DEV2409GH-T2356/NguyenTuanAnh_DoAnTN/NguyenTuanAnh_DoAnTotNghiep/QuanLyNoiThatHoangGia/QuanLyNoiThatHoangGia/Areas/Admins/Views/Shared/_Admin.cshtml]
@@ -62,10 +74,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/DEV2409GH-T2356/NguyenTuanAnh_DoAnTN/NguyenTuanAnh_DoAnTotNghiep/QuanLyNoiThatHoangGia/QuanLyNoiThatHoangGia/Areas/Admins/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNoYXJlZFxfTmF2YmFyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/DEV2409GH-T2356/NguyenTuanAnh_DoAnTN/NguyenTuanAnh_DoAnTotNghiep/QuanLyNoiThatHoangGia/QuanLyNoiThatHoangGia/Areas/Admins/Views/Shared/_Preloader.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5zXFZpZXdzXFNoYXJlZFxfUHJlbG9hZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DEV2409GH-T2356/NguyenTuanAnh_DoAnTN/NguyenTuanAnh_DoAnTotNghiep/QuanLyNoiThatHoangGia/QuanLyNoiThatHoangGia/Areas/Admins/Views/Shared/_SideBar.cshtml]

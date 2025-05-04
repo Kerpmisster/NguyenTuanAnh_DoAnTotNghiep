@@ -716,6 +716,32 @@
   },
   {
     "ContainingType": "QLNT_API.Controllers.ProductController",
+    "Method": "FilterProducts",
+    "RelativePath": "api/Product/FilterProducts/filter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "QLNT_API.DTO.Product.FilterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[QLNT_API.DTO.Product.ProductDTO, QLNT_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "QLNT_API.Controllers.ProductController",
     "Method": "Get",
     "RelativePath": "api/Product/Get/{id}",
     "HttpMethod": "GET",

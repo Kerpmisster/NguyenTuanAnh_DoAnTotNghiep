@@ -1,60 +1,80 @@
 ﻿@model UserViewModel
 
-<form id="editUserForm">
-    @Html.HiddenFor(m => m.Id)
+<div class="card shadow rounded-4">
+    <div class="card-header bg-primary text-white">
+        <h5 class="mb-0">Thông tin người dùng</h5>
+    </div>
+    <div class="card-body">
+        <form id="editUserForm">
+            @Html.HiddenFor(m => m.Id)
 
-    <div class="form-group mb-2">
-        <label>Tên tài khoản</label>
-        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", @readonly = "readonly", id = "UserName" })
-    </div>
-    <div class="form-group mb-2">
-        <label>Họ tên</label>
-        @Html.TextBoxFor(m => m.Fullname, new { @class = "form-control", @readonly = "readonly", id = "Fullname" })
-    </div>
-    <div class="form-group mb-2">
-        <label>Email</label>
-        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @readonly = "readonly", id = "Email" })
-    </div>
-    <div class="form-group mb-2">
-        <label>Địa chỉ</label>
-        @Html.TextBoxFor(m => m.Address, new { @class = "form-control", @readonly = "readonly", id = "Address" })
-    </div>
-    <div class="form-group mb-2">
-        <label>Trạng thái</label>
-        @Html.DropDownListFor(m => m.IsActive, new SelectList(new[] {
-        new { Text = "Đang hoạt động", Value = true },
-        new { Text = "Vô hiệu hóa", Value = false }
-        }, "Value", "Text", Model.IsActive), "Chọn trạng thái", new { @class = "form-control", @disabled = "disabled", id = "IsActiveDropdown" })
-    </div>
-    <div class="form-group mb-2">
-        <label>Vai trò</label>
-        <input type="text" class="form-control" id="DisplayRole" value="@string.Join(", ", Model.DisplayRole)" readonly />
-    </div>
-    <div class="form-group mb-2">
-        <label>Ngày tạo</label>
-        <input type="text" class="form-control" value="@(Model.CreatedDate.HasValue ? Model.CreatedDate.Value.ToString("dd/MM/yyyy") : "Chưa cập nhật")" readonly />
-    </div>
-    <div class="form-group mb-3">
-        <label>Ảnh đại diện</label><br />
-        @if (!string.IsNullOrEmpty(Model.Avatar))
-        {
-            <img src="@Url.Content(Model.Avatar)" alt="Avatar" width="100" />
-        }
-        else
-        {
-            <span>Chưa có ảnh</span>
-        }
-    </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label class="form-label">Tên tài khoản</label>
+                    @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", @readonly = "readonly", id = "UserName" })
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Họ tên</label>
+                    @Html.TextBoxFor(m => m.Fullname, new { @class = "form-control", @readonly = "readonly", id = "Fullname" })
+                </div>
+            </div>
 
-    <div class="text-end">
-        <button type="button" id="editBtn" class="btn btn-warning" onclick="enableEdit()">Sửa</button>
-        <button type="button" id="saveBtn" class="btn btn-primary d-none" onclick="submitEditForm()">Lưu</button>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label class="form-label">Email</label>
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @readonly = "readonly", id = "Email" })
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Địa chỉ</label>
+                    @Html.TextBoxFor(m => m.Address, new { @class = "form-control", @readonly = "readonly", id = "Address" })
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label class="form-label">Trạng thái</label>
+                    @Html.DropDownListFor(m => m.IsActive, new SelectList(new[] {
+                    new { Text = "Đang hoạt động", Value = "true" },
+                    new { Text = "Vô hiệu hóa", Value = "false" }
+                    }, "Value", "Text", Model.IsActive.ToString().ToLower()), "Chọn trạng thái", new { @class = "form-control", @disabled = "disabled", id = "IsActiveDropdown" })
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Vai trò</label>
+                    <input type="text" class="form-control" id="DisplayRole" value="@string.Join(", ", Model.DisplayRole)" readonly />
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label class="form-label">Ngày tạo</label>
+                    <input type="text" class="form-control" value="@(Model.CreatedDate.HasValue ? Model.CreatedDate.Value.ToString("dd/MM/yyyy") : "Chưa cập nhật")" readonly />
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label d-block">Ảnh đại diện</label>
+                    @if (!string.IsNullOrEmpty(Model.Avatar))
+                    {
+                        <img src="@Url.Content(Model.Avatar)" alt="Avatar" class="img-thumbnail rounded" width="100" />
+                    }
+                    else
+                    {
+                        <span class="text-muted">Chưa có ảnh</span>
+                    }
+                </div>
+            </div>
+
+            <div class="text-end">
+                <button type="button" id="editBtn" class="btn btn-warning me-2" onclick="enableEdit()">Sửa</button>
+                <button type="button" id="saveBtn" class="btn btn-primary d-none" onclick="submitEditForm()">Lưu</button>
+            </div>
+        </form>
     </div>
-</form>
+</div>
 
 <script>
+    console.log($("#IsActiveDropdown").val());
     function enableEdit() {
-        $("#editUserForm input, #editUserForm select").removeAttr("readonly").removeAttr("disabled");
+        $("#editUserForm input").removeAttr("readonly");
+        $("#editUserForm select").removeAttr("disabled");
 
         $("#editBtn").addClass("d-none");
         $("#saveBtn").removeClass("d-none");
@@ -106,40 +126,5 @@
             }
         });
     }
-
-
-    // function submitEditForm() {
-    //     const id = $("#Id").val();
-
-    //     var model = {
-    //         id: id,
-    //         userName: $("#UserName").val(),
-    //         email: $("#Email").val(),
-    //         displayRole: $("#DisplayRole").val(),
-    //         fullname: $("#Fullname").val(),
-    //         address: $("#Address").val(),
-    //         avatar: "", // hoặc lấy từ <input type="file"> nếu có
-    //         isActive: $("#IsActiveDropdown").val() === "true",
-    //     };
-
-    //     $.ajax({
-    //         url: `/Admins/Account/Edit/${id}`,
-    //         type: "POST",
-    //         contentType: "application/json",
-    //         data: JSON.stringify(model),
-    //         success: function (response) {
-    //             if (response.success) {
-    //                 alert("Cập nhật thành công!");
-    //                 location.reload();
-    //             } else {
-    //                 alert("Lỗi cập nhật: " + response.message);
-    //             }
-    //         },
-    //         error: function (xhr) {
-    //             console.error(xhr);
-    //             alert("Có lỗi xảy ra khi gửi yêu cầu: " + xhr.status + " - " + xhr.statusText);
-    //         }
-    //     });
-    // }
 </script>
 

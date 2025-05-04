@@ -49,6 +49,8 @@ public partial class QuanlynoithatContext : DbContext
 
     public virtual DbSet<Material> Materials { get; set; }
 
+    public virtual DbSet<Menu> Menus { get; set; }
+
     public virtual DbSet<News> News { get; set; }
 
     public virtual DbSet<Order> Orders { get; set; }
@@ -64,7 +66,6 @@ public partial class QuanlynoithatContext : DbContext
     public virtual DbSet<ProductImage> ProductImages { get; set; }
 
     public virtual DbSet<ProductMaterial> ProductMaterials { get; set; }
-
     public virtual DbSet<Supplier> Suppliers { get; set; }
 
     public virtual DbSet<Warehouse> Warehouses { get; set; }
@@ -455,6 +456,26 @@ public partial class QuanlynoithatContext : DbContext
             entity.HasOne(d => d.Parent).WithMany(p => p.InverseParent)
                 .HasForeignKey(d => d.Parentid)
                 .HasConstraintName("FK_MATERIAL_MATERIAL");
+        });
+
+        modelBuilder.Entity<Menu>(entity =>
+        {
+            entity.ToTable("MENU");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.Isactive).HasColumnName("ISACTIVE");
+            entity.Property(e => e.Parentid).HasColumnName("PARENTID");
+            entity.Property(e => e.Position).HasColumnName("POSITION");
+            entity.Property(e => e.Slug)
+                .HasMaxLength(250)
+                .HasColumnName("SLUG");
+            entity.Property(e => e.Title)
+                .HasMaxLength(250)
+                .HasColumnName("TITLE");
+
+            entity.HasOne(d => d.Parent).WithMany(p => p.InverseParent)
+                .HasForeignKey(d => d.Parentid)
+                .HasConstraintName("FK_MENU_MENU");
         });
 
         modelBuilder.Entity<News>(entity =>

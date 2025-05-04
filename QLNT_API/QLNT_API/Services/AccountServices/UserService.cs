@@ -320,13 +320,24 @@ namespace QLNT_API.Services.AccountServices
 
             var pagedResult = await query.ToPagedResultAsync(page, pageSize);
 
-            var userDTOs = pagedResult.Items.Select(user => new UserDTO
+            var userDTOs = new List<UserDTO>();
+            foreach (var user in pagedResult.Items)
             {
-                Id = user.Id,
-                UserName = user.UserName,
-                Email = user.Email
-                // Bạn có thể thêm các trường khác nếu cần
-            }).ToList();
+                var roles = await _userManager.GetRolesAsync(user); // Lấy vai trò của người dùng
+
+                var customer = await _context.Customers.FirstOrDefaultAsync(c => c.UserId == user.Id);
+
+                var userDTO = new UserDTO
+                {
+                    Id = user.Id,
+                    UserName = user.UserName,
+                    Email = user.Email,
+                    Roles = roles.ToList(),
+                    IsActive = customer?.Isactive == 1
+                };
+
+                userDTOs.Add(userDTO);
+            }
 
             return new PagedResult<UserDTO>
             {

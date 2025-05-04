@@ -5,6 +5,902 @@
       "PackagePath": "staticwebassets\\QuanLyNoiThatHoangGia.4qm2u61p3m.bundle.scp.css"
     },
     {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\ckeditor5-content.css",
+      "PackagePath": "staticwebassets\\ckeditor5\\ckeditor5-content.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\ckeditor5-editor.css",
+      "PackagePath": "staticwebassets\\ckeditor5\\ckeditor5-editor.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\ckeditor5.css",
+      "PackagePath": "staticwebassets\\ckeditor5\\ckeditor5.css"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\ckeditor5.css.map",
+      "PackagePath": "staticwebassets\\ckeditor5\\ckeditor5.css.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\ckeditor5.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\ckeditor5.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\ckeditor5.js.map",
+      "PackagePath": "staticwebassets\\ckeditor5\\ckeditor5.js.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\ckeditor5.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\ckeditor5.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\ckeditor5.umd.js.map",
+      "PackagePath": "staticwebassets\\ckeditor5\\ckeditor5.umd.js.map"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\af.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\af.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\af.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\af.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\af.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\af.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ar.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ar.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ar.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ar.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ar.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ar.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ast.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ast.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ast.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ast.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ast.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ast.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\az.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\az.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\az.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\az.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\az.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\az.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\bg.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\bg.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\bg.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\bg.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\bg.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\bg.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\bn.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\bn.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\bn.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\bn.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\bn.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\bn.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\bs.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\bs.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\bs.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\bs.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\bs.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\bs.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ca.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ca.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ca.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ca.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ca.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ca.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\cs.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\cs.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\cs.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\cs.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\cs.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\cs.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\da.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\da.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\da.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\da.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\da.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\da.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\de-ch.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\de-ch.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\de-ch.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\de-ch.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\de-ch.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\de-ch.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\de.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\de.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\de.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\de.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\de.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\de.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\el.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\el.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\el.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\el.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\el.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\el.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\en-au.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\en-au.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\en-au.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\en-au.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\en-au.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\en-au.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\en-gb.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\en-gb.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\en-gb.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\en-gb.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\en-gb.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\en-gb.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\en.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\en.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\en.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\en.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\en.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\en.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\eo.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\eo.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\eo.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\eo.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\eo.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\eo.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\es-co.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\es-co.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\es-co.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\es-co.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\es-co.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\es-co.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\es.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\es.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\es.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\es.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\es.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\es.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\et.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\et.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\et.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\et.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\et.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\et.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\eu.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\eu.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\eu.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\eu.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\eu.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\eu.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\fa.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\fa.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\fa.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\fa.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\fa.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\fa.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\fi.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\fi.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\fi.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\fi.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\fi.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\fi.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\fr.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\fr.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\fr.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\fr.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\fr.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\fr.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\gl.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\gl.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\gl.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\gl.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\gl.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\gl.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\gu.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\gu.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\gu.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\gu.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\gu.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\gu.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\he.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\he.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\he.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\he.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\he.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\he.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\hi.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\hi.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\hi.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\hi.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\hi.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\hi.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\hr.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\hr.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\hr.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\hr.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\hr.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\hr.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\hu.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\hu.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\hu.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\hu.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\hu.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\hu.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\hy.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\hy.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\hy.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\hy.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\hy.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\hy.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\id.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\id.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\id.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\id.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\id.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\id.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\it.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\it.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\it.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\it.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\it.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\it.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ja.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ja.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ja.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ja.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ja.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ja.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\jv.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\jv.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\jv.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\jv.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\jv.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\jv.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\kk.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\kk.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\kk.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\kk.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\kk.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\kk.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\km.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\km.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\km.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\km.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\km.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\km.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\kn.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\kn.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\kn.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\kn.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\kn.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\kn.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ko.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ko.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ko.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ko.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ko.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ko.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ku.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ku.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ku.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ku.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ku.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ku.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\lt.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\lt.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\lt.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\lt.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\lt.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\lt.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\lv.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\lv.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\lv.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\lv.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\lv.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\lv.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ms.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ms.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ms.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ms.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ms.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ms.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\nb.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\nb.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\nb.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\nb.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\nb.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\nb.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ne.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ne.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ne.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ne.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ne.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ne.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\nl.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\nl.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\nl.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\nl.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\nl.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\nl.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\no.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\no.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\no.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\no.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\no.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\no.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\oc.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\oc.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\oc.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\oc.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\oc.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\oc.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\pl.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\pl.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\pl.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\pl.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\pl.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\pl.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\pt-br.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\pt-br.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\pt-br.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\pt-br.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\pt-br.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\pt-br.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\pt.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\pt.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\pt.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\pt.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\pt.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\pt.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ro.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ro.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ro.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ro.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ro.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ro.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ru.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ru.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ru.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ru.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ru.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ru.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\si.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\si.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\si.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\si.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\si.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\si.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sk.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sk.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sk.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sk.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sk.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sk.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sl.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sl.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sl.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sl.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sl.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sl.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sq.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sq.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sq.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sq.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sq.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sq.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sr-latn.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sr-latn.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sr-latn.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sr-latn.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sr-latn.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sr-latn.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sr.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sr.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sr.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sr.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sr.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sr.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sv.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sv.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sv.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sv.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\sv.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\sv.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\th.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\th.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\th.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\th.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\th.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\th.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ti.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ti.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ti.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ti.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ti.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ti.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\tk.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\tk.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\tk.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\tk.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\tk.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\tk.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\tr.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\tr.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\tr.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\tr.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\tr.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\tr.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\tt.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\tt.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\tt.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\tt.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\tt.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\tt.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ug.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ug.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ug.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ug.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ug.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ug.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\uk.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\uk.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\uk.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\uk.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\uk.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\uk.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ur.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ur.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ur.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ur.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\ur.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\ur.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\uz.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\uz.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\uz.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\uz.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\uz.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\uz.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\vi.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\vi.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\vi.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\vi.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\vi.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\vi.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\zh-cn.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\zh-cn.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\zh-cn.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\zh-cn.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\zh-cn.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\zh-cn.umd.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\zh.d.ts",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\zh.d.ts"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\zh.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\zh.js"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\ckeditor5\\translations\\zh.umd.js",
+      "PackagePath": "staticwebassets\\ckeditor5\\translations\\zh.umd.js"
+    },
+    {
       "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\css\\adminlte.css",
       "PackagePath": "staticwebassets\\css\\adminlte.css"
     },
@@ -247,6 +1143,14 @@
     {
       "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\fonts\\icofont.woff2",
       "PackagePath": "staticwebassets\\fonts\\icofont.woff2"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\img\\background\\Side-bar.jpg",
+      "PackagePath": "staticwebassets\\img\\background\\Side-bar.jpg"
+    },
+    {
+      "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\img\\background\\admins.jpg",
+      "PackagePath": "staticwebassets\\img\\background\\admins.jpg"
     },
     {
       "Id": "D:\\DEV2409GH-T2356\\NguyenTuanAnh_DoAnTN\\NguyenTuanAnh_DoAnTotNghiep\\QuanLyNoiThatHoangGia\\QuanLyNoiThatHoangGia\\wwwroot\\js\\.eslintrc.json",

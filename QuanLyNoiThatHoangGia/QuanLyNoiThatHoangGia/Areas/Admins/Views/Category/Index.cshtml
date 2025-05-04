@@ -1,0 +1,99 @@
+﻿@model List<CategoryViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admins/Views/Shared/_Admin.cshtml";
+}
+<style>
+    .expandable-row td {
+        padding: 0;
+        border-top: none;
+    }
+    .pagination .page-item .page-link {
+        background-color: #f8f9fa;
+        border-color: #ddd;
+    }
+
+    .pagination .page-item.active .page-link {
+        background-color: #007bff;
+        border-color: #007bff;
+        color: white;
+    }
+
+    .pagination .page-item .page-link:hover {
+        background-color: #e2e6ea;
+        color: #007bff;
+    }
+</style>
+
+<h3>Danh sách danh mục sản phẩm</h3>
+
+<p>
+    <a class="btn btn-outline-warning btn-sm btn-create shadow" data-bs-toggle="modal" data-bs-target="#sharedModal">
+        <i class="fas fa-plus"></i>
+        Thêm mới
+    </a>
+</p>
+
+<table class="table table-hover table-bordered align-middle shadow rounded-3 w-50 mx-auto">
+    <thead class="table-primary text-center">
+        <tr>
+            <th>Số thứ tự</th>
+            <th>Ảnh</th>
+            <th>Tên</th>
+        </tr>
+    </thead>
+    <tbody class="text-center">
+        @{
+            int stt = 1;
+        }
+        @foreach (var category in Model)
+        {
+            var dropdownId = $"dropdown-{category.Title.Replace(" ", "-")}";
+            <tr onclick="toggleExpand('@dropdownId')">
+                <td>@stt</td>
+                <td>
+                    <img src="@category.Icon" alt="@category.Title" width="50" />
+                </td>
+                <td style="cursor:pointer;" class="nav-item">
+                    @category.Title
+                    @if (category.Children != null && category.Children.Count > 0)
+                    {
+                        <i class="fas fa-angle-left right"></i>
+                    }
+                </td>
+            </tr>
+            @if (category.Children != null && category.Children.Count > 0)
+            {
+                <tr id="@dropdownId" class="expandable-row" style="display:none;">
+                    <td colspan="3" class="bg-light">
+                        <ul class="list-group">
+                            @foreach (var child in category.Children)
+                            {
+                                <li class="list-group-item list-group-item-action" style="cursor:pointer;">@child.Title</li>
+                            }
+                        </ul>
+                    </td>
+                </tr>
+            }
+            stt++;
+        }
+    </tbody>
+</table>
+
+<script>
+    function toggleExpand(id) {
+        // Đóng tất cả dòng khác trước
+        document.querySelectorAll('.expandable-row').forEach(row => {
+            if (row.id !== id) {
+                row.style.display = 'none';
+            }
+        });
+
+        // Toggle dòng được click
+        const expandRow = document.getElementById(id);
+        if (expandRow) {
+            expandRow.style.display = (expandRow.style.display === 'table-row') ? 'none' : 'table-row';
+        }
+    }
+</script>
+

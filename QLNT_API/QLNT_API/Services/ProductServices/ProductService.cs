@@ -63,5 +63,38 @@ namespace QLNT_API.Services.ProductServices
         {
             return await _context.Products.AnyAsync(p => p.Id == id);
         }
+
+        public async Task<List<ProductDTO>> GetProductsAsync(FilterDTO filter)
+        {
+            var query = _context.Products.AsQueryable();
+            // Chỉ lấy sản phẩm chưa bị xóa
+            query = query.Where(p => p.Isdelete == false || p.Isdelete == null);
+
+            if (filter != null)
+            {
+                if (filter.CategoryId.HasValue && filter.CategoryId.Value > 0)
+                {
+                    query = query.Where(p => p.Cid == filter.CategoryId.Value);
+                }
+
+                if (!string.IsNullOrWhiteSpace(filter.Title) && filter.Title.ToLower() != "string")
+                {
+                    query = query.Where(p => p.Title != null && p.Title.Contains(filter.Title));
+                }
+
+                if (filter.PriceMin.HasValue && filter.PriceMin.Value > 0)
+                {
+                    query = query.Where(p => p.PriceNew >= filter.PriceMin.Value);
+                }
+
+                if (filter.PriceMax.HasValue && filter.PriceMax.Value > 0)
+                {
+                    query = query.Where(p => p.PriceNew <= filter.PriceMax.Value);
+                }
+            }
+
+            var products = await query.ToListAsync();
+            return products.Select(p => ProductMapper.ToProductDTO(p)).ToList();
+        }
     }
 }

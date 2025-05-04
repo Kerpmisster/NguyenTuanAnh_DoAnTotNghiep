@@ -21,19 +21,10 @@
     var isContactsActive = currentUrl.StartsWithSegments("/admins/contacts");
 }
 
-<style>
-    .main-sidebar{
-        overflow: hidden;
-    }
-    .sidebar-dark{
-
-    }
-</style>
-
-<aside class="main-sidebar sidebar-dark-primary shadow">
+<aside class="main-sidebar sidebar-dark-primary shadow" style="overflow: hidden;">
     <a href="~/admins" class="brand-link">
         <img src="~/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">Quản trị hệ thống</span>
+        <span class="brand-text font-weight-light"></span>
     </a>
     <div class="sidebar">
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
@@ -45,8 +36,13 @@
                     var username = HttpContextAccessor.HttpContext.Session.GetString("Username");
                 }
 
-                <span class="d-block text-white">Xin chào, @username</span>
-                <a asp-area="Account" asp-controller="Account" asp-action="Logout" class="text-white">Đăng xuất</a>
+                <span class="d-block text-white text-uppercase">@username</span>
+                <p>
+                    <a asp-area="Account" asp-controller="Account" asp-action="Logout" class="text-white">
+                        <i class="fas fa-sign-out-alt"></i>
+                        Đăng xuất
+                    </a>
+                </p>
             </div>
         </div>
         <!-- Sidebar Menu -->
@@ -64,9 +60,17 @@
                     <a href="@Url.Action("Users", "Account", new { area = "Admins" })" class="nav-link @* @((isAccountManagerActive ? "active" : "")) *@">
                         <i class="nav-icon fas fa-user-circle"></i>
                         <p>
-                            Quản lý tài khoản
+                            Quản lý tài khoản                          
                         </p>
-                    </a>                
+                    </a>         
+                </li>
+                <li class="nav-item @* @((isAccountManagerActive ? " menu-open" : "" )) *@">
+                    <a href="@Url.Action("Index", "Role", new { area = "Admins" })" class="nav-link @* @((isAccountManagerActive ? " active" : "" )) *@">
+                        <i class="nav-icon fas fa-user-circle"></i>
+                        <p>
+                            Phân quyền tài khoản
+                        </p>
+                    </a>
                 </li>
                 <li class="nav-item">
                     <a href="~/admins/orders" class="nav-link @((isOrdersActive ? "active" : ""))">
@@ -111,7 +115,7 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="~/admins/products" class="nav-link @((isProductActive ? "active" : ""))">
+                            <a href="@Url.Action("Index", "Category", new { area = "Admins" })" class="nav-link @((isProductActive ? "active" : ""))">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Danh mục sản phẩm</p>
                             </a>

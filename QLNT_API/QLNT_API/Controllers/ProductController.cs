@@ -69,6 +69,13 @@ namespace QLNT_API.Controllers
             }
         }
 
+        [HttpPost("filter")]
+        public async Task<ActionResult<IEnumerable<ProductDTO>>> FilterProducts([FromBody] FilterDTO filter)
+        {
+            var products = await _productService.GetProductsAsync(filter);
+            return Ok(products);
+        }
+
         // DELETE: api/Product/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)

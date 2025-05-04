@@ -14,7 +14,35 @@ namespace QuanLyNoiThatHoangGia.Areas.Admins.Controllers
         {
             _httpClientFactory = httpClientFactory;
         }
-        public async Task<IActionResult> Users()
+        //public async Task<IActionResult> Users()
+        //{
+        //    var token = HttpContext.Session.GetString("JWT");
+        //    if (string.IsNullOrEmpty(token))
+        //    {
+        //        return RedirectToAction("Account/Account/Login");
+        //    }
+
+        //    var client = _httpClientFactory.CreateClient();
+        //    client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+        //    var response = await client.GetAsync("https://localhost:7261/api/Account/GetUsers");
+
+        //    List<UserViewModel> users = new List<UserViewModel>();
+        //    if (response.IsSuccessStatusCode)
+        //    {
+        //        var jsonString = await response.Content.ReadAsStringAsync();
+        //        users = JsonConvert.DeserializeObject<List<UserViewModel>>(jsonString);
+        //    }
+        //    else
+        //    {
+        //        var errorContent = await response.Content.ReadAsStringAsync();
+        //        // Handle error case (optional: log or return empty list)
+        //        ViewData["Error"] = $"Không thể tải danh sách người dùng. Mã lỗi: {response.StatusCode} - {errorContent}";
+        //    }
+
+        //    // Handle error case
+        //    return View("Users", users);
+        //}
+        public async Task<IActionResult> Users(int page = 1, int pageSize = 5)
         {
             var token = HttpContext.Session.GetString("JWT");
             if (string.IsNullOrEmpty(token))
@@ -24,23 +52,27 @@ namespace QuanLyNoiThatHoangGia.Areas.Admins.Controllers
 
             var client = _httpClientFactory.CreateClient();
             client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
-            var response = await client.GetAsync("https://localhost:7261/api/Account/GetUsers");
 
-            List<UserViewModel> users = new List<UserViewModel>();
+            // Cập nhật URL API với các tham số phân trang
+            var response = await client.GetAsync($"https://localhost:7261/api/Account/GetPaged/paged?page={page}&pageSize={pageSize}");
+
+            PagedResult<UserViewModel> result = new PagedResult<UserViewModel>();
             if (response.IsSuccessStatusCode)
             {
                 var jsonString = await response.Content.ReadAsStringAsync();
-                users = JsonConvert.DeserializeObject<List<UserViewModel>>(jsonString);
+                result = JsonConvert.DeserializeObject<PagedResult<UserViewModel>>(jsonString);
             }
             else
             {
                 var errorContent = await response.Content.ReadAsStringAsync();
-                // Handle error case (optional: log or return empty list)
                 ViewData["Error"] = $"Không thể tải danh sách người dùng. Mã lỗi: {response.StatusCode} - {errorContent}";
             }
 
-            // Handle error case
-            return View("Users", users);
+            // Truyền dữ liệu phân trang vào View
+            ViewData["CurrentPage"] = page;
+            ViewData["TotalPages"] = result.TotalPages;
+
+            return View("Users", result.Items);
         }
 
         public async Task<IActionResult> Detail(string id)

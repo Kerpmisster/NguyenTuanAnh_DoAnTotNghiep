@@ -1,11 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -32,44 +31,27 @@
 </head>
 <body>
     <section class="wrapper">
-
-        <!-- Preloader -->
-        @await Html.PartialAsync("_Preloader")
-
         <!-- Navbar -->
         @await Html.PartialAsync("_NavBar")
         <!-- /.navbar -->
         <!-- Main Sidebar Container -->
-        @await Html.PartialAsync("_SideBar", ViewData);
+        @await Html.PartialAsync("_SideBar", ViewData)
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
-           @*  <div class="content-header">
-                <div class="container-fluid">
-                    <div class="row mb-2">
-                        <!-- /.col -->
-                        <div class="col-sm-6">
-                            <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            </ol>
-                        </div><!-- /.col -->
-                    </div><!-- /.row -->
-                </div><!-- /.container-fluid -->
-            </div> *@
-            <!-- /.content-header -->
             <!-- Main content -->
             <section class="content">
-                <div class="container-fluid">
-
-                    @RenderBody()
-
+                <div class="container my-4 text-center">
+                    <div class="table-responsive">
+                        @RenderBody()
+                    </div>
                 </div><!-- /.container-fluid -->
             </section>
             <!-- /.content -->
         </div>
         <!-- /.content-wrapper -->
         <footer class="main-footer">
-            <strong>Copyright © Nguyễn Tuấn Anh 2021-2025 &nbsp;<a href="https://gmail.com">nta20030123@gmail.com</a></strong>
+            <strong>Copyright © Nguyễn Tuấn Anh 2021-2025 &nbsp;<a href="https://gmail.com" id="emailLink">nta20030123@gmail.com</a></strong>
         </footer>
 
         <!-- Control Sidebar -->
@@ -79,12 +61,6 @@
         <!-- /.control-sidebar -->
     </section>
     <!-- ./wrapper -->
-
-
-
-
-
-
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -122,7 +98,18 @@
     <script src="~/js/pages/dashboard.js"></script>
     <script src="~/plugins/ckfinder/ckfinder.js"></script>
     <script src="~/plugins/ckeditor/ckeditor.js"></script>
+    <script>
+        document.getElementById('emailLink').addEventListener('click', function(event) {
+            event.preventDefault(); // Ngăn liên kết chuyển hướng
+            const emailText = this.textContent; // Lấy văn bản của liên kết
+            navigator.clipboard.writeText(emailText) // Sao chép vào clipboard
+                .catch(err => {
+                    console.error('Sao chép thất bại: ', err); // Xử lý lỗi
+                });
+        });
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>
 

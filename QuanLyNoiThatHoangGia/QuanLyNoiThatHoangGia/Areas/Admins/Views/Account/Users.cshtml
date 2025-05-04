@@ -3,17 +3,40 @@
 @{
     ViewData["Title"] = "Users";
     Layout = "~/Areas/Admins/Views/Shared/_Admin.cshtml";
+    var currentPage = ViewData["CurrentPage"] as int? ?? 1;
+    var totalPages = ViewData["TotalPages"] as int? ?? 1;
 }
 
-<table class="table">
-    <thead>
+<style>
+    .pagination .page-item .page-link {
+        background-color: #f8f9fa;
+        border-color: #ddd;
+        min-width: 40px;
+        text-align: center;
+    }
+
+    .pagination .page-item.active .page-link {
+        background-color: #007bff;
+        border-color: #007bff;
+        color: white;
+    }
+
+    .pagination .page-item .page-link:hover {
+        background-color: #e2e6ea;
+        color: #007bff;
+    }
+</style>
+
+<table class="table table-hover table-bordered align-middle shadow rounded-3 w-50 mx-auto">
+    <thead class="table-primary text-center">
         <tr>
             <th>Số thứ tự</th>
             <th>Tên tài khoản</th>
+            <th>Trạng thái</th>
             <th>Quyền</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody class="text-center">
         @{
             int stt = 1;
         }
@@ -21,24 +44,63 @@
         {
             <tr>
                 <td>@stt</td>
-                <td>
-                    <a href="javascript:void(0);" class="text-primary" onclick="showUserDetail('@user.Id')">
+                <td class="text-center ps-4">
+                    <a href="javascript:void(0);" class="text-decoration-none fw-semibold" style="color: black" onclick="showUserDetail('@user.Id')">
                         @user.UserName
                     </a>
                 </td>
-                <td>@user.DisplayRole</td>
+                <td>
+                    <span class="badge bg-@(user.IsActive ? "success" : "danger")">
+                        @(user.IsActive ? "Đang hoạt động" : "Không hoạt động")
+                    </span>
+                </td>
+                <td>
+                    <span class="badge bg-@(user.DisplayRole == "admin" ? "danger" : "secondary")">
+                        @user.DisplayRole
+                    </span>
+                </td>
             </tr>
             stt++;
         }
     </tbody>
 </table>
 
+<!-- Phân trang sử dụng Bootstrap -->
+<nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center">
+        @if (currentPage > 1)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("Users", new { page = currentPage - 1 })" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+        }
+
+        @for (var pageNumber = 1; pageNumber <= totalPages; pageNumber++)
+        {
+            <li class="page-item @(currentPage == pageNumber ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Users", new { page = pageNumber })">@pageNumber</a>
+            </li>
+        }
+
+        @if (currentPage < totalPages)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("Users", new { page = currentPage + 1 })" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        }
+    </ul>
+</nav>
+
 <!-- Modal -->
 <div class="modal fade" id="userDetailModal" tabindex="-1" role="dialog" aria-labelledby="userDetailModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="userDetailModalLabel">Chi tiết người dùng</h5>
+                <h5 class="modal-title" id="userDetailModalLabel"></h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
             </div>
             <div class="modal-body" id="modalUserDetailContent">

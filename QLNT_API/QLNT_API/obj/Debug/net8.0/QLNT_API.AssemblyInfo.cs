@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QLNT_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c318e9bdbdae76a4df9b2deed89270aaf7a7bfad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8921cf065a5ce6461d594d192f641ec9ae71ba6")]
 [assembly: System.Reflection.AssemblyProductAttribute("QLNT_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QLNT_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
